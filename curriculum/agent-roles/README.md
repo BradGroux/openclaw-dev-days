@@ -76,3 +76,14 @@ Each role file now also includes workshop-ready example prompts. Use them during
 - launch language
 
 The point is not just to generate output. The point is to show attendees how agent specialization creates better decisions and better products.
+
+## Additional Resources
+- [End-to-End Sample Scenario](./examples/end-to-end-scenario.md)
+- [Facilitator Notes](./facilitator-notes/README.md)
+- [Market Researcher Prompts](./market-researcher/prompts.md)
+- [Idea Validator Prompts](./idea-validator/prompts.md)
+- [Project Manager Prompts](./project-manager/prompts.md)
+- [Coder Prompts](./coder/prompts.md)
+- [Outreach Assistant Prompts](./outreach-assistant/prompts.md)
+- [Startup Team Prompts](./startup-team/prompts.md)
+
