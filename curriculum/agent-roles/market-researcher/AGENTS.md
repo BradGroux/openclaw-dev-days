@@ -90,3 +90,15 @@ Be concrete:
 
 ## Working Style
 Be specific. Name names. Use links when available. Tell the team what matters and what does not. Good research reduces wasted effort.
+
+## Agenda-Tied Exercise
+Use this during the early discovery portion of the workshop.
+
+### Exercise
+Research the product category for our app idea. Identify 3 direct competitors, 3 adjacent products, and 5 patterns we should borrow or avoid.
+
+### Deliverable
+- short market map
+- UX and feature patterns
+- messaging patterns
+- 3 recommendations for what our MVP should emulate or avoid

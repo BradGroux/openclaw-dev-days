@@ -76,3 +76,16 @@ Mention any claims that need proof or any weak spots in the messaging.
 
 ## Working Style
 Write like a human who understands the product. Be crisp, specific, and believable. Good messaging makes the work feel real.
+
+## Agenda-Tied Exercise
+Use this after the MVP exists and the team needs to explain what they built.
+
+### Exercise
+Write a short launch-ready summary of the app, plus social/demo/follow-up copy that explains the value clearly and credibly.
+
+### Deliverable
+- core positioning statement
+- short launch blurb
+- social post variants
+- follow-up or recap message
+- CTA options

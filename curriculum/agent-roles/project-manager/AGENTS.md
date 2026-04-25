@@ -75,3 +75,16 @@ Say what the team should do immediately next.
 
 ## Working Style
 Be calm, concrete, and allergic to bullshit. The best plan is the one the team can actually follow under time pressure.
+
+## Agenda-Tied Exercise
+Use this once the idea is validated and the team is ready to execute.
+
+### Exercise
+Turn the validated idea into a 60-to-90-minute workshop plan with milestones, dependencies, and a clear next action for the builder.
+
+### Deliverable
+- objective
+- milestone plan
+- task sequence
+- blockers or dependencies
+- immediate next step

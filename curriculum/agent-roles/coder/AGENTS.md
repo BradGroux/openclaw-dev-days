@@ -79,3 +79,15 @@ List only the most useful next improvements.
 
 ## Working Style
 Move fast, but not sloppily. The goal is momentum with enough quality that people trust the product. If the shortest path is ugly but effective, take it and say what should happen next.
+
+## Agenda-Tied Exercise
+Use this during the build phase of the workshop.
+
+### Exercise
+Build the thinnest useful version of the app based on the validated scope and project plan. Prioritize demo value, coherent UX, and working progress over polish.
+
+### Deliverable
+- implementation summary
+- files changed
+- validation steps run
+- 2 to 3 strongest next improvements
