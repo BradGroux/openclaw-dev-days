@@ -35,7 +35,7 @@ This session is designed for:
 
 **The format:**
 
-Richard will facilitate and help frame the security context. Brad will keep the demo conceptual and workflow-focused rather than spending the hour on live setup mechanics. OpenClaw remains the example environment, but the title and durable lesson are agent-based: how to structure work, verify outputs, and keep humans in the loop. We'll close with enterprise governance guidance and Q&A.
+Richard will facilitate and help frame the security context. Brad will keep the demo conceptual and workflow-focused rather than spending Brad’s 80-minute content/Q&A block on live setup mechanics. OpenClaw remains the example environment, but the title and durable lesson are agent-based: how to structure work, verify outputs, and keep humans in the loop. We'll close with enterprise governance guidance and Q&A.
 
 **Prep (optional but recommended):**
 
@@ -65,6 +65,6 @@ InfraGard-specific prep materials are available under the event-specific section
 - Community Discord/follow-up: https://discord.gg/Gmfkm7QVSF
 - Facilitator: Richard Garodnick
 - Title direction: agent-based; OpenClaw appears as the demo environment, not the headline.
-- Demo direction: conceptual workflow demo; avoid spending the hour on live setup.
+- Demo direction: conceptual workflow demo; avoid spending Brad’s 80-minute content/Q&A block on live setup.
 - Texas A&M lessons: do not feed into this InfraGard version.
 - Recording/screenshots/repo links: no special InfraGard limits noted.

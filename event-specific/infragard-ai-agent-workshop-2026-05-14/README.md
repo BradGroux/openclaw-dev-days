@@ -1,7 +1,7 @@
 # InfraGard AI Agent Workshop - 2026-05-14
 
 **Event Title:** AI Agent Teams for Critical Infrastructure: Practical Workflows, Security Guardrails, and Governed Automation  
-**Format:** Virtual, approximately 60 minutes; final time per InfraGard listing  
+**Format:** Virtual, 90 minutes total; Brad content + Q&A approximately 80 minutes; final time per InfraGard listing  
 **Presenter:** Brad Groux  
 **Facilitator:** Richard Garodnick  
 **Audience:** InfraGard Houston members across cybersecurity, IT, OT, infrastructure, energy, maritime, healthcare, legal, and other critical infrastructure sectors.  
@@ -15,7 +15,7 @@ This session is a practical follow-up to Brad's prior InfraGard AI overview. Str
 1. **Deeper literacy:** attendees wanted tool names, workflow details, and hands-on steps rather than abstract concepts.
 2. **Confidence for mixed audiences:** some attendees are senior leaders (staying macro), while others are practitioners and engineers who work in the field daily and want to go deeper.
 
-This approximately one-hour session bridges both with a facilitator-led, workflow-first approach:
+This 90-minute event bridges both with a facilitator-led, workflow-first approach:
 
 - **Security context (Richard + Brad):** frame the risk/reward of AI agents in critical infrastructure, address threat actor adoption, and establish guardrails before the workflow demo.
 - **Conceptual workflow demo (Brad):** show how AI agents work, how to use Markdown as memory, common setup paths across multiple providers, and verification practices without turning the session into live setup troubleshooting.
@@ -37,12 +37,15 @@ OpenClaw is the example/demo environment for this event. The broader concepts tr
 
 | Segment | Time | Presenter(s) | Purpose |
 |---|---:|---|---|
-| **Welcome and context** | 5 min | Richard + Brad | Recap prior AI session feedback and set expectations for a practical one-hour session |
-| **Security and critical infrastructure context** | 10 min | Richard + Brad | Frame risk/reward: threat actors are already exploring these tools; why hands-on literacy matters for CI professionals; guardrails and verification practices |
-| **Agent teams and durable context** | 10 min | Brad | Agents as specialized teammates; Markdown as durable, auditable memory; trust-but-verify mindset |
-| **Conceptual OpenClaw workflow demo** | 20 min | Brad | Show the agent workflow pattern without spending the session on live setup; explain common paths across GitHub Copilot, Codex, Claude Code, Ollama/open models |
-| **Real-world use cases and governance** | 10 min | Brad + Richard | Critical infrastructure patterns, identity, credential safety, human approval loops, and staged rollout practices |
-| **Q&A and close** | 5 min | Richard + Brad | Capture follow-ups; point attendees to repo and community Discord |
+| **Welcome and context** | 5 min | Andrew / Richard | Recap prior AI session feedback and set expectations for the 90-minute event |
+| **Security and critical infrastructure frame** | 5 min | Richard + Brad | Establish threat/risk framing and why hands-on literacy matters |
+| **Agent teams and durable context** | 15 min | Brad | Agents as specialized teammates; Markdown as durable, auditable memory; trust-but-verify mindset |
+| **Conceptual OpenClaw workflow demo** | 30 min | Brad | Show the agent workflow pattern without spending the session on live setup; explain common paths across GitHub Copilot, Codex, Claude Code, Ollama/open models |
+| **Real-world use cases** | 20 min | Brad | Heavy haul logistics, oilfield/water testing, infrastructure monitoring, OT/IT coordination |
+| **Governance, enterprise path, and Q&A** | 10 min | Richard + Brad | Identity, credential safety, human approval loops, staged rollout practices, and audience questions |
+| **Close and follow-up** | 5 min | Richard / Andrew + Brad | Point attendees to repo, event materials, and community Discord |
+
+**Timing note:** Brad should have roughly 80 minutes total for content and questions. The facilitator/host framing should stay tight so the session does not collapse into setup mechanics.
 
 ## Recommended Prep
 

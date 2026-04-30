@@ -55,7 +55,7 @@ Use 2-4 of these. Keep it crisp so the live workflow demo still has enough time.
 
 ## Demo Anchors
 
-Brad's demo should be conceptual and workflow-focused. Do not spend the hour on live setup mechanics:
+Brad's demo should be conceptual and workflow-focused. Do not spend Brad’s 80-minute content/Q&A block on live setup mechanics:
 
 1. **Start with the web portal/conceptual flow.** Do not spend the session on Teams/WhatsApp/Telegram/Discord integrations.
 2. **Mention setup paths, do not troubleshoot them live.** Example framing: "After the session, point your coding assistant at the repo and ask it to help get OpenClaw running."
