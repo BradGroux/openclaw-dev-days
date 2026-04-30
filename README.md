@@ -20,6 +20,7 @@ This repo is designed to support the Texas A&M workshop first, then expand into 
 
 - `curriculum/` — agendas, setup guides, challenges, agent role definitions
 - `projects/beaver-badges/` — PRD, seed data, and app scaffold
+- `projects/infragard-agent-team/` — critical infrastructure agent-team workshop project
 - `examples/` — prompts, memory examples, orchestrator patterns
 - `event-specific/` — materials tied to a specific event delivery
 - `.github/` — agent and prompt definitions inspired by workshop agent patterns
@@ -36,3 +37,7 @@ cd projects/beaver-badges/app
 npm install
 npm run dev
 ```
+
+## Upcoming event-specific materials
+
+- InfraGard AI Agent Workshop — see `event-specific/infragard-ai-agent-workshop-2026-05-14/`
