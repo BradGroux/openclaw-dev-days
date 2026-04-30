@@ -7,7 +7,7 @@ These notes turn the 2026-04-27 planning call into a practical run-of-show aid f
 This is not a generic AI overview. The prior InfraGard session already proved there is interest, but the feedback split in two directions:
 
 - some attendees wanted the macro/security picture kept clear and accessible
-- many practitioners wanted tool names, setup paths, workflow detail, and a real hands-on path
+- many practitioners wanted tool names, setup paths, workflow detail, and a real practical agent-based path
 
 The workshop should deliberately move **macro → micro → macro**:
 
@@ -25,7 +25,7 @@ Set expectations clearly:
 
 - attendees do not need to become developers during the session
 - attendees should not paste secrets, customer data, network details, or regulated data into public tools
-- hands-on followers should use sanitized examples
+- attendees should use sanitized examples
 - tooling may behave differently by model/provider; that is part of the lesson
 
 ## Security Bookend - Opening Panel Questions
@@ -53,12 +53,12 @@ Use 2-4 of these. Keep it crisp so the live workflow demo still has enough time.
 - What should never be used as a first process?
 - Where does human approval need to remain mandatory?
 
-## Live Demo Anchors
+## Demo Anchors
 
-Brad's demo should emphasize mindset and pattern more than perfect installation mechanics:
+Brad's demo should be conceptual and workflow-focused. Do not spend the hour on live setup mechanics:
 
-1. **Start with the web portal.** Do not spend the session on Teams/WhatsApp/Telegram/Discord integrations.
-2. **Let the coding assistant help install/configure.** Example framing: "Point your coding assistant at the repo and ask it to help get OpenClaw running."
+1. **Start with the web portal/conceptual flow.** Do not spend the session on Teams/WhatsApp/Telegram/Discord integrations.
+2. **Mention setup paths, do not troubleshoot them live.** Example framing: "After the session, point your coding assistant at the repo and ask it to help get OpenClaw running."
 3. **Inspect what changed.** Show attendees that trust requires review.
 4. **Verify the result.** Run the app, inspect config, check logs, or ask a second model to review output.
 5. **Iterate when models differ.** Different providers will produce different results; that is normal.
@@ -103,23 +103,19 @@ Useful one-liner:
 
 ## Promotion / Broadcast Checklist
 
-Before broad distribution, fill these placeholders:
+Before broad distribution, confirm these final details:
 
-- registration link
-- final virtual meeting platform/link policy
-- community Discord invite/link, if ready
+- registration / InfraGard Houston link: https://www.linkedin.com/company/infragard-houston/: https://www.linkedin.com/company/infragard-houston/
+- final virtual meeting platform/link policy through InfraGard Houston: use InfraGard/LinkedIn listing unless Andrew provides a separate virtual room policy
+- community Discord invite/link: https://discord.gg/Gmfkm7QVSF
 - preferred Brad bio from prior InfraGard broadcast
-- whether Richard is listed as presenter, panelist, or security discussant
+- Richard is listed as facilitator
 - whether attendees should clone the repo or simply bookmark it
 
-## Post-Texas A&M Follow-Up
+## Final Planning Decisions
 
-The Texas A&M Dev Days event happens before this InfraGard workshop and should feed the final materials. Capture:
-
-- setup issues attendees hit most often
-- which model/provider path worked best for non-developers
-- which explanations landed with mixed audiences
-- which demo steps took longer than expected
-- what should be cut from a 90-minute version
-
-Update `attendee-prep.md` and `agenda.md` after those lessons are known.
+- Title direction: agent-based, not OpenClaw-forward.
+- Richard Garodnick is the facilitator.
+- Demo direction: conceptual workflow demo, not live setup-heavy.
+- Texas A&M lessons: none should feed into this InfraGard version.
+- InfraGard limits: no special limits noted around recording, screenshots, repo links, or attendee follow-up materials.

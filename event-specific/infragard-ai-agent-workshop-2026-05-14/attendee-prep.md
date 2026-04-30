@@ -1,6 +1,6 @@
 # Attendee Prep - InfraGard AI Agent Workshop
 
-You can attend without completing these steps, but preparing ahead will make the session much more useful, especially if you want to follow along live.
+You can attend without completing these steps. The session will use a conceptual demo, so setup is optional; preparing ahead will make the follow-up work more useful.
 
 ## Accounts
 
@@ -14,7 +14,7 @@ Create or confirm access to:
   - ChatGPT with Code Interpreter
   - Ollama with local open models
   - any other coding assistant you have access to
-- **Optional:** OpenClaw access (if provided by InfraGard)
+- **Optional:** OpenClaw access (if provided by InfraGard or set up after the session)
 
 ## Install Helpful Apps
 
@@ -110,6 +110,12 @@ You don't need to have it perfectly defined. Just come with the problem in mind.
 - Treat AI-generated output as a draft until you verify it.
 - Keep a human in the approval loop for operational and security-sensitive changes.
 - If you're unsure whether something is safe to share, don't share it. Ask the facilitators.
+
+## Community and Follow-Up
+
+- Registration / InfraGard Houston: https://www.linkedin.com/company/infragard-houston/
+- Community Discord: https://discord.gg/Gmfkm7QVSF
+- Repo links, screenshots, and recording: no special InfraGard limits noted.
 
 ## Optional: Review These Before the Event
 

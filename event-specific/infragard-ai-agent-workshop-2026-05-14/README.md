@@ -1,10 +1,11 @@
 # InfraGard AI Agent Workshop - 2026-05-14
 
-**Event Title:** AI Agent Teams for Critical Infrastructure: Hands-On OpenClaw Workflows and Security Guardrails  
-**Format:** Virtual, 90 minutes (11:30 AM – 1:00 PM CDT)  
-**Primary presenters:** Brad Groux and Richard Garodnick (panel format)  
+**Event Title:** AI Agent Teams for Critical Infrastructure: Practical Workflows, Security Guardrails, and Governed Automation  
+**Format:** Virtual, approximately 60 minutes; final time per InfraGard listing  
+**Presenter:** Brad Groux  
+**Facilitator:** Richard Garodnick  
 **Audience:** InfraGard Houston members across cybersecurity, IT, OT, infrastructure, energy, maritime, healthcare, legal, and other critical infrastructure sectors.  
-**Location:** Virtual (Zoom or InfraGard platform)  
+**Location / registration:** https://www.linkedin.com/company/infragard-houston/  
 **Organizer:** Andrew Brorsen, InfraGard Houston AI council
 
 ## Purpose
@@ -14,13 +15,13 @@ This session is a practical follow-up to Brad's prior InfraGard AI overview. Str
 1. **Deeper literacy:** attendees wanted tool names, workflow details, and hands-on steps rather than abstract concepts.
 2. **Confidence for mixed audiences:** some attendees are senior leaders (staying macro), while others are practitioners and engineers who work in the field daily and want to go deeper.
 
-This 90-minute workshop bridges both with a panel-based approach:
+This approximately one-hour session bridges both with a facilitator-led, workflow-first approach:
 
-- **Security context (Brad + Richard):** frame the risk/reward of AI agents in critical infrastructure, address threat actor adoption, and establish guardrails before diving into hands-on work.
-- **Hands-on workflow (Brad):** show how AI agents work, how to use Markdown as memory, setup paths across multiple providers, and verification practices.
+- **Security context (Richard + Brad):** frame the risk/reward of AI agents in critical infrastructure, address threat actor adoption, and establish guardrails before the workflow demo.
+- **Conceptual workflow demo (Brad):** show how AI agents work, how to use Markdown as memory, common setup paths across multiple providers, and verification practices without turning the session into live setup troubleshooting.
 - **Real-world examples (Brad):** logistics, oilfield/water testing, infrastructure monitoring, OT/IT coordination, and how these workflows move teams beyond spreadsheets and email.
 
-OpenClaw is the hands-on learning environment for this event. The broader concepts transfer to enterprise agent ecosystems (Microsoft Agent 365), other coding assistants (GitHub Copilot, Codex, Claude Code), and agentic AI platforms broadly.
+OpenClaw is the example/demo environment for this event. The broader concepts transfer to enterprise agent ecosystems (Microsoft Agent 365), other coding assistants (GitHub Copilot, Codex, Claude Code), and agentic AI platforms broadly.
 
 ## What Attendees Will Learn
 
@@ -36,12 +37,12 @@ OpenClaw is the hands-on learning environment for this event. The broader concep
 
 | Segment | Time | Presenter(s) | Purpose |
 |---|---:|---|---|
-| **Welcome and context** | 5 min | Brad + Andrew | Recap prior AI session feedback and set expectations for 90-minute deep dive |
-| **Security and critical infrastructure context** | 10-15 min | Brad + Richard (panel) | Frame risk/reward: threat actors are already exploring these tools; why hands-on literacy matters for CI professionals; guardrails and verification practices |
-| **OpenClaw and agent-team workflow** | 35-45 min | Brad | Agents as specialized teammates; Markdown as durable, auditable memory; multi-provider setup paths (GitHub Copilot, Codex, Claude Code, Ollama/open models); trust-but-verify mindset |
-| **Real-world use cases** | 10-15 min | Brad | Heavy haul trucking (from spreadsheets to real-time tracking for AWS contracts); oilfield water testing (automating field reporting and sample analysis); log triage and infrastructure monitoring; OT/IT coordination |
-| **Enterprise and next steps** | 10-15 min | Brad + Richard | Governance, identity, credential safety, human approval loops; staged rollout practices; when and how to move from personal use to organizational rollout |
-| **Q&A and close** | 5-10 min | Brad + Richard + Andrew | Capture follow-ups; point attendees to repo, community Discord, and future events |
+| **Welcome and context** | 5 min | Richard + Brad | Recap prior AI session feedback and set expectations for a practical one-hour session |
+| **Security and critical infrastructure context** | 10 min | Richard + Brad | Frame risk/reward: threat actors are already exploring these tools; why hands-on literacy matters for CI professionals; guardrails and verification practices |
+| **Agent teams and durable context** | 10 min | Brad | Agents as specialized teammates; Markdown as durable, auditable memory; trust-but-verify mindset |
+| **Conceptual OpenClaw workflow demo** | 20 min | Brad | Show the agent workflow pattern without spending the session on live setup; explain common paths across GitHub Copilot, Codex, Claude Code, Ollama/open models |
+| **Real-world use cases and governance** | 10 min | Brad + Richard | Critical infrastructure patterns, identity, credential safety, human approval loops, and staged rollout practices |
+| **Q&A and close** | 5 min | Richard + Brad | Capture follow-ups; point attendees to repo and community Discord |
 
 ## Recommended Prep
 
@@ -61,6 +62,7 @@ Project reference:
 
 - [`projects/infragard-agent-team`](../../projects/infragard-agent-team) — template for designing your own agent team
 - [`facilitator-notes.md`](facilitator-notes.md) — moderator prompts, security bookends, demo anchors, and follow-up checklist
+- Community Discord: https://discord.gg/Gmfkm7QVSF
 
 Resource hub: https://github.com/BradGroux/openclaw-dev-days
 
@@ -91,4 +93,4 @@ Threat actors adopt cutting-edge tools faster and more creatively than defenders
 
 **This is figuring it out together.**
 
-Neither Brad, Richard, nor InfraGard has all the answers. The first OpenClaw Dev Days is this weekend (Texas A&M, 200+ attendees); the InfraGard workshop is the second. Things will change, ideas will shift, and that's okay. Attendees are invited to participate in a learning community, ask questions, and help shape how these tools are used safely in critical infrastructure.
+Neither Brad, Richard, nor InfraGard has all the answers. Things will change, ideas will shift, and that's okay. Attendees are invited to participate in a learning community, ask questions, and help shape how these tools are used safely in critical infrastructure.

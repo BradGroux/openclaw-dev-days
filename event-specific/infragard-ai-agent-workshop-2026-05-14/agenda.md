@@ -1,9 +1,11 @@
 # Agenda - InfraGard AI Agent Workshop
 
-**Event:** InfraGard Houston AI Agent Teams Workshop  
+**Event:** InfraGard Houston AI Agent Teams Session  
 **Target date:** 2026-05-14  
-**Recommended duration:** 90 minutes  
-**Theme:** Hands-on AI agent workflows with security bookends for critical infrastructure.
+**Recommended duration:** Approximately 60 minutes  
+**Theme:** Agent-based practical workflows with security bookends for critical infrastructure.  
+**Registration:** https://www.linkedin.com/company/infragard-houston/  
+**Facilitator:** Richard Garodnick
 
 ## 0:00-0:05 - Welcome and Why This Follow-Up Exists
 
@@ -11,9 +13,9 @@
 - This workshop bridges strategy and practice.
 - OpenClaw will be used as the learning environment, but the concepts transfer broadly.
 
-## 0:05-0:20 - Security and Critical Infrastructure Context
+## 0:05-0:15 - Security and Critical Infrastructure Context
 
-**Presenters:** Brad Groux + Richard Garodnick (panel)
+**Facilitator / presenter:** Richard Garodnick + Brad Groux
 
 **Key points:**
 
@@ -35,7 +37,7 @@
 - Working principle: **experiment hands-on, but verify everything.**
 - The SpaceX vs. Boeing analogy: you'll have failures if you're shipping fast, but if you learn from them and maintain due diligence, that's acceptable. Being too cautious (no launches) is also a failure.
 
-## 0:20-0:35 - Agent Teams and Markdown Memory
+## 0:15-0:25 - Agent Teams and Markdown Memory
 
 - What an AI agent team is.
 - Why specialized roles outperform one generic assistant.
@@ -47,9 +49,10 @@
   - auditable
 - The human remains the orchestrator.
 
-## 0:35-1:05 - OpenClaw Workflow Demo
+## 0:25-0:45 - Conceptual OpenClaw Workflow Demo
 
-- OpenClaw as a command center for personal and team workflows.
+- OpenClaw as an example command center for personal and team workflows.
+- Keep this conceptual and workflow-focused; do not burn the hour on live setup troubleshooting.
 - Web portal first; chat surfaces later.
 - Example setup paths:
   - GitHub Copilot
@@ -63,7 +66,7 @@
   - verify the result
   - iterate when output differs by provider
 
-## 1:05-1:20 - Critical Infrastructure Use Cases
+## 0:45-0:55 - Critical Infrastructure Use Cases
 
 **Presenter:** Brad Groux
 
@@ -100,9 +103,9 @@
 
 **Core theme:** These tools help teams move from manual, email/spreadsheet-based processes to structured, data-driven automation. The speed of iteration is key: proof of concepts in days, MVPs in weeks, learning from failures quickly.
 
-## 1:20-1:30 - Enterprise Next Steps, Governance, and Q&A
+## 0:55-1:00 - Enterprise Next Steps, Governance, and Q&A
 
-**Presenters:** Brad Groux + Richard Garodnick
+**Facilitator / presenter:** Richard Garodnick + Brad Groux
 
 **Key points:**
 
@@ -136,13 +139,18 @@
 
 ### The learning community
 
-- Brad is building a community Discord (not the noisy 60k+ OpenClaw community, but a focused Southeast Texas group).
+- Community Discord: https://discord.gg/Gmfkm7QVSF
 - Attendees can join to ask questions, share examples, and learn from peers.
-- The first OpenClaw Dev Days at Texas A&M (this weekend) will inform how future events are structured.
-- The InfraGard workshop is the second event; both are learning laboratories.
 
 **Closing Challenge:** Pick one low-risk process in your work or organization and document it as a Markdown SOP. Then ask an agent to help improve it, automate part of it, or turn it into a checklist. See what's possible.
 
 ## Closing Challenge
 
 Pick one low-risk process in your work and document it as a Markdown SOP. Then ask an agent to help improve it, automate part of it, or turn it into a checklist.
+
+## Final Constraints
+
+- Title should be agent-based; OpenClaw is the example environment, not the headline.
+- Conceptual demo only; no extended live setup.
+- Do not incorporate Texas A&M lessons into this InfraGard version.
+- No InfraGard-specific limits noted around recording, screenshots, repo links, or attendee follow-up materials.

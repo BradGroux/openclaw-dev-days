@@ -6,7 +6,7 @@ Instead of building a consumer app, this project teaches attendees how to define
 
 By the end of the workshop, you'll have a template you can apply to **any process** in your work: SOP improvement, log analysis, incident response, field data automation, or operational coordination.
 
-The workshop itself is the first event; the project is your personal learning lab afterward.
+The session is conceptual and workflow-focused; this project is your personal learning lab afterward.
 
 ## Goal
 
@@ -133,11 +133,11 @@ An agent team helped them:
 
 - OpenClaw Dev Days main repo: https://github.com/BradGroux/openclaw-dev-days
 - Workshop agenda and materials: `event-specific/infragard-ai-agent-workshop-2026-05-14/`
-- Community Discord: [link to be shared during workshop]
+- Community Discord: https://discord.gg/Gmfkm7QVSF
 - Brad's blog/updates: [link to be shared during workshop]
 
 ## Questions?
 
 - During the workshop, ask Brad, Richard, or Andrew.
 - After the workshop, ask in the community Discord.
-- Review the workshop transcript (will be posted in the repo).
+- Review the workshop transcript if Brad/InfraGard posts it after the session.
