@@ -9,8 +9,9 @@ Arrive with a working environment so you can spend the workshop building, not wa
 Please create these accounts before the event if possible:
 - GitHub
 - OpenClaw
-- Ollama Cloud
-- WhatsApp on your phone
+- Ollama Cloud, if using cloud models
+- Azure account/access, only if you are joining the Azure Foundry stretch lane
+- WhatsApp on your phone, optional/demo path
 
 If you cannot finish before the event, we will help during setup, but arriving prepared will make your day much smoother.
 
@@ -20,6 +21,8 @@ Install these before the workshop:
 - Visual Studio Code
 - Git
 - Obsidian
+- Ollama
+- Node.js LTS, optional because OpenClaw installer can help
 - A modern browser (Edge or Chrome recommended)
 
 ## Install with Winget
@@ -30,12 +33,16 @@ Open PowerShell and run:
 winget install --id Git.Git -e
 winget install --id Microsoft.VisualStudioCode -e
 winget install --id Obsidian.Obsidian -e
+winget install --id Ollama.Ollama -e
+winget install --id OpenJS.NodeJS.LTS -e
 ```
 
 If `winget` is unavailable, use the official installers:
 - https://git-scm.com/download/win
 - https://code.visualstudio.com/
 - https://obsidian.md/
+- https://ollama.com/download/windows
+- https://nodejs.org/
 
 ## GitHub Check
 
@@ -65,18 +72,67 @@ Create a file called `memory.md` with three short notes:
 
 You can create it in Obsidian or VS Code.
 
-## OpenClaw Access Path
+## Ollama Check
 
-You will use:
-- the OpenClaw web portal
-- WhatsApp on mobile
-- the public workshop repo
+Open PowerShell and run:
 
-This workshop is not CLI-only.
+```powershell
+ollama --version
+curl.exe http://127.0.0.1:11434/api/tags
+```
 
-## WhatsApp
+If Ollama is not running, open the Ollama app or run:
 
-Make sure WhatsApp is installed and logged in on your phone before arrival.
+```powershell
+ollama serve
+```
+
+## OpenClaw First Success Path
+
+Preferred workshop path:
+
+```powershell
+ollama pull llama3.2:3b
+ollama launch openclaw
+```
+
+Fallback install path:
+
+```powershell
+iwr -useb https://openclaw.ai/install.ps1 | iex
+openclaw onboard --install-daemon
+```
+
+Verify:
+
+```powershell
+openclaw --version
+openclaw gateway status
+openclaw dashboard
+```
+
+The default success path is dashboard-first. WhatsApp/mobile channels are optional after dashboard success.
+
+## WSL2 Fallback
+
+Native Windows is the workshop default. If native Windows gets stuck, helpers may move you to WSL2:
+
+```powershell
+wsl --install
+```
+
+## Azure Foundry Stretch Path
+
+If you are joining the Azure Foundry path, bring:
+- endpoint URL
+- API key
+- deployment name
+
+OpenClaw model ref format:
+
+```text
+microsoft-foundry/<deployment-name>
+```
 
 ## Optional but Helpful
 
@@ -88,8 +144,9 @@ Make sure WhatsApp is installed and logged in on your phone before arrival.
 ## What We Will Help With Live
 
 - OpenClaw login and first-use setup
-- Ollama Cloud baseline configuration
-- WhatsApp linking
+- Ollama local/cloud baseline configuration
+- Azure Foundry setup for stretch attendees
+- WhatsApp linking only after dashboard success
 - GitHub basics if you are new
 - troubleshooting package install issues
 
@@ -99,6 +156,7 @@ You are in good shape if you can say yes to these:
 - VS Code is installed
 - Git works in PowerShell
 - Obsidian opens
+- Ollama works in PowerShell
+- OpenClaw dashboard opens or you know you need helper lane
 - GitHub account is ready
-- WhatsApp works on your phone
 - you have at least one Markdown note created

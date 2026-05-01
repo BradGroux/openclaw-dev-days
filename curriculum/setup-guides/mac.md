@@ -9,8 +9,9 @@ Arrive with a working environment so you can spend the workshop building, not wa
 Please create these accounts before the event if possible:
 - GitHub
 - OpenClaw
-- Ollama Cloud
-- WhatsApp on your phone
+- Ollama Cloud, if using cloud models
+- Azure account/access, only if you are joining the Azure Foundry stretch lane
+- WhatsApp on your phone, optional/demo path
 
 If you cannot finish before the event, we will help during setup, but arriving prepared will make your day much smoother.
 
@@ -20,6 +21,8 @@ Install these before the workshop:
 - Visual Studio Code
 - Git
 - Obsidian
+- Ollama
+- Node.js LTS, optional because OpenClaw installer can help
 - A modern browser (Chrome, Edge, or Arc recommended)
 
 ## Install with Homebrew
@@ -27,9 +30,8 @@ Install these before the workshop:
 If you already use Homebrew, run:
 
 ```bash
-brew install git
-brew install --cask visual-studio-code
-brew install --cask obsidian
+brew install git node
+brew install --cask visual-studio-code obsidian ollama
 ```
 
 If you do not have Homebrew yet, install it from:
@@ -65,18 +67,59 @@ Create a file called `memory.md` with three short notes:
 
 You can create it in Obsidian or VS Code.
 
-## OpenClaw Access Path
+## Ollama Check
 
-You will use:
-- the OpenClaw web portal
-- WhatsApp on mobile
-- the public workshop repo
+Open Terminal and run:
 
-This workshop is not CLI-only.
+```bash
+ollama --version
+curl http://127.0.0.1:11434/api/tags
+```
 
-## WhatsApp
+If Ollama is not running, open the Ollama app or run:
 
-Make sure WhatsApp is installed and logged in on your phone before arrival.
+```bash
+ollama serve
+```
+
+## OpenClaw First Success Path
+
+Preferred workshop path:
+
+```bash
+ollama pull llama3.2:3b
+ollama launch openclaw
+```
+
+Fallback install path:
+
+```bash
+curl -fsSL https://openclaw.ai/install.sh | bash
+openclaw onboard --install-daemon
+```
+
+Verify:
+
+```bash
+openclaw --version
+openclaw gateway status
+openclaw dashboard
+```
+
+The default success path is dashboard-first. WhatsApp/mobile channels are optional after dashboard success.
+
+## Azure Foundry Stretch Path
+
+If you are joining the Azure Foundry path, bring:
+- endpoint URL
+- API key
+- deployment name
+
+OpenClaw model ref format:
+
+```text
+microsoft-foundry/<deployment-name>
+```
 
 ## Optional but Helpful
 
@@ -88,8 +131,9 @@ Make sure WhatsApp is installed and logged in on your phone before arrival.
 ## What We Will Help With Live
 
 - OpenClaw login and first-use setup
-- Ollama Cloud baseline configuration
-- WhatsApp linking
+- Ollama local/cloud baseline configuration
+- Azure Foundry setup for stretch attendees
+- WhatsApp linking only after dashboard success
 - GitHub basics if you are new
 - troubleshooting package install issues
 
@@ -99,6 +143,7 @@ You are in good shape if you can say yes to these:
 - VS Code is installed
 - Git works in Terminal
 - Obsidian opens
+- Ollama works in Terminal
+- OpenClaw dashboard opens or you know you need helper lane
 - GitHub account is ready
-- WhatsApp works on your phone
 - you have at least one Markdown note created
