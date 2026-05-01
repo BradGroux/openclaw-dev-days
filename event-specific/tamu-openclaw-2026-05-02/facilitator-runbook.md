@@ -14,15 +14,15 @@ Protect the first win. The workshop succeeds when attendees get one working Open
 - Prepare screenshots for the first-hour Markdown/Obsidian discussion.
 - Prepare rescue/demo machine in case attendee installs stall.
 
-## Discord backchannel
+## Discord prerequisite
 
-Use the Start Small, Think Big Discord during the workshop for shared links, announcements, questions, and workshop-provided setup information such as the temporary API key.
+Confirm attendees can join the Start Small, Think Big Discord during setup. Use it for shared workshop information and questions.
 
 - Invite: https://discord.gg/Gmfkm7QVSF
 
-Safety line to repeat:
+Safety line to repeat if setup information is shared there:
 
-> Only use workshop-provided keys shared by facilitators. Do not post personal API keys, tokens, credentials, private data, or sensitive notes in Discord.
+> Do not post personal API keys, tokens, credentials, private data, or sensitive notes in Discord.
 
 ## Opening links to show
 
