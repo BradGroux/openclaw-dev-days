@@ -4,6 +4,8 @@ OpenClaw Dev Days is the reusable workshop kit for teaching OpenClaw without tur
 
 The point is simple: get people to one real operator win fast, then show them how to extend it.
 
+This repo includes raw research notes to show the workshop-building process; sensitive or private details should be excluded before anything is published.
+
 ## TAMU attendees: start here
 
 For the May 2 TAMU workshop, use these files first:
@@ -46,6 +48,7 @@ For deeper training, future workshops, and small-business AI/operator playbooks,
 - `helper-runbook/` — facilitator triage and rescue-lane guidance
 - `troubleshooting/` — common install/model/provider failures
 - `research/` — comparable events, risks, agenda lessons, workshop patterns, video ingests
+- `PUBLICATION-SAFETY.md` — public repo safety guidelines for contributors
 
 ## Event-specific content
 The Texas A&M / Arnold Castro workshop content lives under:
