@@ -4,6 +4,18 @@ OpenClaw Dev Days is the reusable workshop kit for teaching OpenClaw without tur
 
 The point is simple: get people to one real operator win fast, then show them how to extend it.
 
+## TAMU attendees: start here
+
+For the May 2 TAMU workshop, use these files first:
+
+1. Attendee links: [`event-specific/tamu-openclaw-2026-05-02/attendee-links.md`](event-specific/tamu-openclaw-2026-05-02/attendee-links.md)
+2. Agenda: [`curriculum/agenda/tamu-2026-05-02.md`](curriculum/agenda/tamu-2026-05-02.md)
+3. Mac setup: [`curriculum/setup-guides/mac.md`](curriculum/setup-guides/mac.md)
+4. Windows setup: [`curriculum/setup-guides/windows.md`](curriculum/setup-guides/windows.md)
+5. First success lab: [`labs/first-success.md`](labs/first-success.md)
+6. Markdown thinking lab: [`labs/markdown-thinking-layer.md`](labs/markdown-thinking-layer.md)
+7. Beaver Badges: [`projects/beaver-badges/README.md`](projects/beaver-badges/README.md)
+
 ## Learn more with the community
 
 Dev Days is the starting line, not the finish line. If you want a calmer place to ask follow-up questions, keep building with other operators, and hear about future training, join the Start Small, Think Big community:
@@ -34,11 +46,10 @@ For deeper training, future workshops, and small-business AI/operator playbooks,
 - `helper-runbook/` — facilitator triage and rescue-lane guidance
 - `troubleshooting/` — common install/model/provider failures
 - `research/` — comparable events, risks, agenda lessons, workshop patterns, video ingests
-- `resources/` — checklists, FAQs, templates, post-event support assets
 
 ## Event-specific content
 The Texas A&M / Arnold Castro workshop content lives under:
-- `appearances/tamu-openclaw-2026-05-02/`
+- `event-specific/tamu-openclaw-2026-05-02/`
 
 ## Current refinement priorities
 1. Lock the first 30-minute success path: `ollama launch openclaw` → OpenClaw gateway → dashboard → first response

@@ -34,6 +34,9 @@ Keep this visual and fast. Use screenshots instead of live editing during the fi
 
 Suggested screenshots:
 
+Reference checklist: `curriculum/modules/markdown-screenshot-checklist.md`.
+
+
 1. A simple Markdown file rendered in GitHub.
 2. The raw Markdown source for that same file.
 3. OpenClaw-style Markdown context files, such as persona, memory, instructions, or workspace notes.
