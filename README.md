@@ -4,6 +4,16 @@ OpenClaw Dev Days is the reusable workshop kit for teaching OpenClaw without tur
 
 The point is simple: get people to one real operator win fast, then show them how to extend it.
 
+## Learn more with the community
+
+Dev Days is the starting line, not the finish line. If you want help after the workshop, want to keep building with other operators, or want to see what people are making with OpenClaw, join the OpenClaw community Discord:
+
+- OpenClaw Discord: https://discord.com/invite/clawd
+
+For deeper training, future workshops, and small-business AI/operator playbooks, sign up at:
+
+- Start Small Think Big: https://sstb.ai
+
 ## What this curriculum is trying to do
 - Get attendees from zero to one working OpenClaw loop quickly
 - Teach operator workflow, not just terminal commands
