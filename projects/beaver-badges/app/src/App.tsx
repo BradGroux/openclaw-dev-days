@@ -67,7 +67,7 @@ export default function App() {
     : 100
   const remainingForNextBadge = nextBadge ? nextBadge.requiredVisits - visitedCount : 0
   const completionState =
-    visitedCount === 0 ? 'Just getting started' : visitedCount === locations.length ? 'Texas tour complete' : 'Momentum building'
+    visitedCount === 0 ? 'Ready for your first stop' : visitedCount === locations.length ? 'All demo stops visited' : 'Road trip in progress'
   const featuredLocations = locationsWithRegions.filter((location) => !location.visited).slice(0, 3)
 
   function toggleVisited(id: string) {
@@ -85,7 +85,7 @@ export default function App() {
           <img className="brand-mark" src="/beaver-badges-logo-128.png" alt="Beaver Badges logo" />
           <div>
             <p>Beaver Badges</p>
-            <span>Workshop dashboard</span>
+            <span>Buc-ee’s trip tracker</span>
           </div>
         </div>
 
@@ -107,7 +107,7 @@ export default function App() {
         </section>
 
         <section className="sidebar-card spotlight-card">
-          <p className="sidebar-label">Up next</p>
+          <p className="sidebar-label">Next stops</p>
           {featuredLocations.length > 0 ? (
             <ul>
               {featuredLocations.map((location) => (
@@ -118,7 +118,7 @@ export default function App() {
               ))}
             </ul>
           ) : (
-            <p className="sidebar-copy">Every seeded location has been visited. Time to add the roadmap map view.</p>
+            <p className="sidebar-copy">Every demo location has been visited. Add more stops to keep the trip going.</p>
           )}
         </section>
       </aside>
@@ -126,29 +126,29 @@ export default function App() {
       <div className="main-shell">
         <section id="overview" className="hero-shell">
           <div className="hero-copy-block">
-            <p className="eyebrow">OpenClaw Dev Days • TAMU Edition</p>
-            <div className="hero-title-row"><img src="/beaver-badges-logo-256.png" alt="" aria-hidden="true" /><h1>Turn each stop into visible momentum.</h1></div>
+            <p className="eyebrow">Buc-ee’s Badge Tracker</p>
+            <div className="hero-title-row"><img src="/beaver-badges-logo-256.png" alt="" aria-hidden="true" /><h1>Track your Buc-ee’s stops and earn badges.</h1></div>
             <p className="hero-copy">
-              Beaver Badges tracks Texas stops, celebrates the milestones, and gives the workshop app a stronger dashboard feel without changing the core product story.
+              Mark the Buc-ee’s locations you’ve visited, see how close you are to the next badge, and pick the next stop for your Texas road trip.
             </p>
             <div className="hero-actions">
-              <a href="#locations" className="hero-action primary">Review locations</a>
-              <a href="#badges" className="hero-action secondary">View badge path</a>
+              <a href="#locations" className="hero-action primary">Choose stops</a>
+              <a href="#badges" className="hero-action secondary">See badges</a>
             </div>
           </div>
 
           <div className="hero-highlight-card">
             <div className="hero-highlight-header">
-              <span className="pill">Progress snapshot</span>
+              <span className="pill">Trip snapshot</span>
               <span className="hero-highlight-state">{completionState}</span>
             </div>
             <div className="hero-stat-row">
               <div>
-                <span>Total completion</span>
+                <span>Stops visited</span>
                 <strong>{progressPercent.toFixed(0)}%</strong>
               </div>
               <div>
-                <span>Unlocked badges</span>
+                <span>Badges earned</span>
                 <strong>{unlockedBadges.length}</strong>
               </div>
             </div>
@@ -157,8 +157,8 @@ export default function App() {
             </div>
             <p className="hero-highlight-copy">
               {nextBadge
-                ? `${remainingForNextBadge} more stop${remainingForNextBadge === 1 ? '' : 's'} to unlock ${nextBadge.name}.`
-                : 'You have unlocked every seeded badge. Legendary behavior.'}
+                ? `${remainingForNextBadge} more Buc-ee’s stop${remainingForNextBadge === 1 ? '' : 's'} to earn ${nextBadge.name}.`
+                : 'You’ve earned every badge in this demo route.'}
             </p>
           </div>
         </section>
@@ -166,36 +166,36 @@ export default function App() {
         <section className="summary-grid" aria-label="Progress summary">
           <article className="summary-card emphasis-card">
             <div className="summary-topline">
-              <span className="summary-label">Visited stops</span>
-              <span className="summary-trend positive">{visitedCount === 0 ? 'Start here' : `+${visitedCount} tracked`}</span>
+              <span className="summary-label">Buc-ee’s stops visited</span>
+              <span className="summary-trend positive">{visitedCount === 0 ? 'First stop' : `+${visitedCount} visited`}</span>
             </div>
             <strong>{visitedCount}</strong>
-            <p>Track progress across the seeded Texas route and make the completion state immediately legible.</p>
+            <p>Mark each location as visited and watch your badge count grow.</p>
           </article>
 
           <article className="summary-card">
             <div className="summary-topline">
-              <span className="summary-label">Next unlock</span>
-              <span className="summary-trend">{nextBadge ? `${nextBadge.requiredVisits} stop goal` : 'All badges earned'}</span>
+              <span className="summary-label">Next badge</span>
+              <span className="summary-trend">{nextBadge ? `${nextBadge.requiredVisits} stop${nextBadge.requiredVisits === 1 ? '' : 's'} needed` : 'Complete'}</span>
             </div>
-            <strong>{nextBadge ? nextBadge.name : 'Legend status'}</strong>
+            <strong>{nextBadge ? nextBadge.name : 'Trip complete'}</strong>
             <div className="progress-meter compact">
               <div className="progress-meter-fill warm" style={{ width: `${nextBadgeProgress}%` }} />
             </div>
             <p>
               {nextBadge
-                ? `${remainingForNextBadge} stop${remainingForNextBadge === 1 ? '' : 's'} remaining until the next milestone.`
-                : 'No milestones left in the seed set.'}
+                ? `${remainingForNextBadge} more Buc-ee’s stop${remainingForNextBadge === 1 ? '' : 's'} until you earn this badge.`
+                : 'You’ve completed every badge in this demo route.'}
             </p>
           </article>
 
           <article className="summary-card">
             <div className="summary-topline">
-              <span className="summary-label">Filter focus</span>
+              <span className="summary-label">Showing region</span>
               <span className="summary-trend">{selectedRegion}</span>
             </div>
             <strong>{filteredLocations.length}</strong>
-            <p>Use regional filtering to keep the list tidy during demos and show future expansion points.</p>
+            <p>Filter the Buc-ee’s list by region when you want to plan one part of the trip at a time.</p>
           </article>
         </section>
 
@@ -203,23 +203,23 @@ export default function App() {
           <article className="panel progress-panel">
             <div className="panel-header with-kicker">
               <div>
-                <p className="panel-kicker">Current milestone</p>
-                <h2>Road trip progress</h2>
+                <p className="panel-kicker">Current badge goal</p>
+                <h2>Buc-ee’s road trip</h2>
               </div>
               <span>{visitedCount} / {locations.length} stops</span>
             </div>
             <div className="progress-callout">
               <div className="progress-copy-block">
-                <strong>{nextBadge ? nextBadge.name : 'All badges complete'}</strong>
+                <strong>{nextBadge ? nextBadge.name : 'Every badge earned'}</strong>
                 <p>
                   {nextBadge
-                    ? `Your next badge unlocks at ${nextBadge.requiredVisits} visits, with a clearer state treatment for workshop demos.`
-                    : 'Every milestone in the current badge ladder has been cleared.'}
+                    ? `Visit ${nextBadge.requiredVisits} Buc-ee’s location${nextBadge.requiredVisits === 1 ? '' : 's'} to earn this badge.`
+                    : 'You’ve cleared every badge in the current demo.'}
                 </p>
               </div>
               <div className="progress-ring-card">
                 <span>{progressPercent.toFixed(0)}%</span>
-                <small>route complete</small>
+                <small>stops visited</small>
               </div>
             </div>
             <div className="progress-meter large">
