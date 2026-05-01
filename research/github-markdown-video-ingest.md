@@ -6,6 +6,10 @@ Channel: GitHub
 Published: 20260427  
 Duration: 357 seconds
 
+## Source note
+
+Optional prep/follow-up resource for attendees. Thank you to the GitHub team for making approachable Markdown learning material for new builders.
+
 ## Why this matters for OpenClaw Dev Days
 
 This is a short, beginner-friendly Markdown primer from GitHub. It maps cleanly into the first hour of OpenClaw Dev Days because Markdown is the shared surface where humans, models, agents, GitHub, and Obsidian can all cooperate.

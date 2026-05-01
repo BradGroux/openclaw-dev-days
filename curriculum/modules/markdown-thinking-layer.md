@@ -2,9 +2,9 @@
 
 ## Purpose
 
-Teach Markdown as the first practical bridge between people, models, agents, GitHub, and Obsidian.
+Teach Markdown as the first practical bridge between people, models, agents, GitHub, Obsidian, and OpenClaw workspace memory.
 
-The point is not formatting trivia. The point is that Markdown makes thinking legible, reusable, and easy for both humans and agents to inspect.
+This first-hour segment is a discussion with a few screenshots, not a live hands-on demo. The point is not formatting trivia. The point is that Markdown makes thinking legible, reusable, and easy for both humans and agents to inspect.
 
 ## First-hour framing
 
@@ -13,9 +13,10 @@ Use this sequence during the opening hour:
 1. Models do not think like humans. They work from context.
 2. Agents become useful when context is explicit, structured, and durable.
 3. Markdown is plain text with enough structure to guide both people and models.
-4. GitHub uses Markdown for READMEs, issues, pull requests, and project docs.
-5. Obsidian uses Markdown for personal knowledge, connected notes, and long-running memory.
-6. OpenClaw can use Markdown files as memory, instructions, plans, and task context.
+4. OpenClaw uses Markdown-style files for durable context, including persona, memory, instructions, and workspace notes.
+5. GitHub uses Markdown for READMEs, issues, pull requests, and project docs.
+6. Obsidian uses Markdown for personal knowledge, connected notes, and long-running memory.
+7. The data people create with their agents becomes valuable only when it is captured, structured, and reusable.
 
 ## Key message
 
@@ -27,9 +28,22 @@ Markdown is the shared operating layer for the workshop.
 - Obsidian can organize it.
 - OpenClaw can use it as durable context.
 
-## Minimum syntax to teach
+## What to show in screenshots
 
-Keep this tight. Attendees only need enough syntax to create useful structure.
+Keep this visual and fast. Use screenshots instead of live editing during the first hour.
+
+Suggested screenshots:
+
+1. A simple Markdown file rendered in GitHub.
+2. The raw Markdown source for that same file.
+3. OpenClaw-style Markdown context files, such as persona, memory, instructions, or workspace notes.
+4. An agent instruction file with role, boundaries, and expected output.
+5. A Markdown task list that becomes an agent work plan.
+6. The same or similar Markdown note opened in Obsidian.
+
+## Minimum syntax to explain
+
+Keep this tight. Attendees only need enough syntax to understand the screenshots and later create useful structure.
 
 ```markdown
 # Heading 1
@@ -55,16 +69,16 @@ A prompt, command, or example block goes here.
 [Useful link](https://example.com)
 ```
 
-## Demo flow
+## Discussion flow
 
-1. Show a messy note about a project idea.
-2. Convert it into Markdown headings, bullets, task lists, and a prompt block.
-3. Show how the rendered Markdown becomes easier for a person to scan.
-4. Show how the raw Markdown gives an agent clearer structure.
-5. Save the file as `workshop-memory.md`.
-6. Ask OpenClaw to read it and turn it into an agent plan.
-7. Open the same file in Obsidian to show that the note can become part of a knowledge base.
-8. If time allows, show the same Markdown rendered in GitHub.
+1. Show a messy project note.
+2. Show the same note as Markdown with headings, bullets, tasks, and a prompt block.
+3. Explain that the rendered version is easier for a person to scan.
+4. Explain that the raw Markdown gives an agent clearer structure.
+5. Show OpenClaw context files as examples of durable agent memory and instructions.
+6. Show a task list becoming an agent work plan.
+7. Show Obsidian as the place where Markdown grows into a personal knowledge base.
+8. Mention GitHub as the place where Markdown becomes public project documentation.
 
 ## Safety checkpoint
 
@@ -74,7 +88,9 @@ Do not put secrets, API keys, private data, client information, sensitive person
 
 When in doubt, keep it local.
 
-## Attendee exercise
+## Later hands-on exercise
+
+The first hands-on Markdown artifact should live in the attendee's OpenClaw workspace.
 
 Create `workshop-memory.md`:
 
@@ -89,32 +105,50 @@ I want to build or improve: ...
 - My project or idea:
 - My biggest friction point:
 
+## Data I create with agents
+- Prompts that worked:
+- Decisions I made:
+- Useful outputs worth saving:
+
 ## Constraints
 - Time:
 - Tools:
 - Data I should not expose:
 
-## First agent idea
-- [ ] Agent name:
-- [ ] Job:
-- [ ] First useful task:
+## First agent instruction
+- Agent name:
+- Role:
+- Boundaries:
+- First useful task:
 
-## Prompts that worked
-```text
-Paste one useful prompt here.
-```
+## Task list for the agent
+- [ ] Clarify the goal
+- [ ] Propose a plan
+- [ ] Identify one risk
 ```
 
 Then ask OpenClaw:
 
 ```text
-Read my workshop-memory.md file and help me turn it into a first agent plan. Ask me three questions before you propose the plan.
+Read my workshop-memory.md file and help me turn it into a first agent instruction and task list. Ask me three questions before you propose the plan.
 ```
+
+## GitHub video follow-up
+
+Optional prep/follow-up resource:
+
+- GitHub — Getting started with Markdown on GitHub: https://www.youtube.com/watch?v=LxeclcePg-c
+
+Thank the GitHub team for making approachable learning material that helps new builders understand Markdown quickly.
 
 ## Facilitator notes
 
 - Do not over-teach syntax.
-- Do not make attendees install Obsidian before the concept lands.
-- Treat Obsidian as a visual proof that Markdown notes can grow into a knowledge system.
-- Treat GitHub as a collaboration proof that Markdown can become public project documentation.
+- Do not run a live Markdown editing demo during the first hour; use screenshots and discussion.
+- Install Obsidian during the prerequisite/setup block, not during the first-hour concept discussion.
+- Treat Obsidian as proof that Markdown notes can grow into a knowledge system.
+- Treat GitHub as proof that Markdown can become public project documentation.
+- Keep the first created file in the OpenClaw workspace.
+- Emphasize that agent-created data is valuable when captured, reviewed, and reused.
+- Use task lists as the bridge from notes into agent work plans.
 - Keep the first win local and safe before anything is published.
