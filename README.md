@@ -28,7 +28,7 @@ For deeper training, future workshops, and small-business AI/operator playbooks,
 - **Workshop time is expensive.** Anything likely to explode should be preflighted, optional, or moved to helper lanes.
 
 ## Structure
-- `curriculum/` — modules, labs, pacing, facilitator notes
+- `curriculum/` — modules, labs, pacing, facilitator notes, including the Markdown thinking-layer module
 - `setup-guides/` — Mac, Windows, Ollama, and Azure Foundry instructions
 - `labs/` — attendee exercises with binary success checkpoints
 - `helper-runbook/` — facilitator triage and rescue-lane guidance

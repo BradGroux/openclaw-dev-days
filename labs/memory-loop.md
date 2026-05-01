@@ -20,7 +20,13 @@ mkdir $HOME\openclaw-dev-days
 cd $HOME\openclaw-dev-days
 ```
 
-## Step 2 — Create `memory.md`
+## Step 2 — Understand why Markdown matters
+
+Markdown is not just formatting. It is structured plain text that people can read, agents can parse, GitHub can render, and Obsidian can organize.
+
+Before publishing anything to GitHub or a shared workspace, do not include secrets, API keys, private data, client information, or sensitive personal notes.
+
+## Step 3 — Create `memory.md`
 
 Add:
 
@@ -39,7 +45,7 @@ I want to build or improve: <your idea>
 The next useful thing for me is: <one action>
 ```
 
-## Step 3 — Ask OpenClaw to use it
+## Step 4 — Ask OpenClaw to use it
 
 Prompt:
 
@@ -47,7 +53,7 @@ Prompt:
 Read my workshop memory note and turn it into a cleaner project goal, three next actions, and one risk I should watch.
 ```
 
-## Step 4 — Save the improved result
+## Step 5 — Save the improved result
 
 Create `workshop-goal-summary.md` with:
 
