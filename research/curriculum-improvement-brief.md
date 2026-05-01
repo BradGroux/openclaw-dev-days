@@ -523,7 +523,7 @@ Output:
 10. Should we include source install instructions at all? Recommendation: no, except contributor appendix.
 
 ### Business goals
-1. What is the desired follow-up action: community signup, GitHub stars, OpenClaw adoption, Digital Meld leads, Start Small Think Big audience growth, or future workshops?
+1. What is the desired follow-up action: community signup, GitHub stars, OpenClaw adoption, Digital Meld leads, Start Small, Think Big audience growth, or future workshops?
 2. Is this positioned as OpenClaw Dev Days, Digital Meld workshop, TAMU entrepreneurship session, or startup build day?
 3. Should the curriculum be reusable for future paid/client workshops?
 4. What attendee profile counts as a qualified lead or strong follow-up candidate?

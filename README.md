@@ -6,13 +6,13 @@ The point is simple: get people to one real operator win fast, then show them ho
 
 ## Learn more with the community
 
-Dev Days is the starting line, not the finish line. If you want a calmer place to ask follow-up questions, keep building with other operators, and hear about future training, join the Start Small Think Big community:
+Dev Days is the starting line, not the finish line. If you want a calmer place to ask follow-up questions, keep building with other operators, and hear about future training, join the Start Small, Think Big community:
 
 - SSTB Discord: https://discord.gg/Gmfkm7QVSF
 
 For deeper training, future workshops, and small-business AI/operator playbooks, sign up at:
 
-- Start Small Think Big: https://sstb.ai
+- Start Small, Think Big: https://sstb.ai
 
 ## What this curriculum is trying to do
 - Get attendees from zero to one working OpenClaw loop quickly
