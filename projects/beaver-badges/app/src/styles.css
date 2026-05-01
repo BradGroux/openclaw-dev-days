@@ -82,15 +82,12 @@ button {
 }
 
 .brand-mark {
-  width: 52px;
-  height: 52px;
-  border-radius: 18px;
-  display: grid;
-  place-items: center;
-  background: linear-gradient(135deg, #f59e0b, #fb7185);
-  color: #111827;
-  font-weight: 900;
-  letter-spacing: 0.08em;
+  width: 56px;
+  height: 56px;
+  border-radius: 999px;
+  display: block;
+  object-fit: contain;
+  filter: drop-shadow(0 10px 22px rgba(0, 0, 0, 0.28));
 }
 
 .sidebar-brand p,

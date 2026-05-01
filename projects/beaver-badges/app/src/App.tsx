@@ -82,7 +82,7 @@ export default function App() {
     <main className="app-shell">
       <aside className="sidebar-shell">
         <div className="sidebar-brand">
-          <div className="brand-mark">BB</div>
+          <img className="brand-mark" src="/beaver-badges-logo-128.png" alt="Beaver Badges logo" />
           <div>
             <p>Beaver Badges</p>
             <span>Workshop dashboard</span>
@@ -127,7 +127,7 @@ export default function App() {
         <section id="overview" className="hero-shell">
           <div className="hero-copy-block">
             <p className="eyebrow">OpenClaw Dev Days • TAMU Edition</p>
-            <h1>Turn each stop into visible momentum.</h1>
+            <div className="hero-title-row"><img src="/beaver-badges-logo-256.png" alt="" aria-hidden="true" /><h1>Turn each stop into visible momentum.</h1></div>
             <p className="hero-copy">
               Beaver Badges tracks Texas stops, celebrates the milestones, and gives the workshop app a stronger dashboard feel without changing the core product story.
             </p>
