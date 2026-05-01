@@ -21,14 +21,15 @@ Do not post personal API keys, tokens, credentials, private data, or sensitive n
 
 ## Workshop flow
 
-1. Agenda: [`../../curriculum/agenda/tamu-2026-05-02.md`](../../curriculum/agenda/tamu-2026-05-02.md)
-2. Mac setup guide: [`../../curriculum/setup-guides/mac.md`](../../curriculum/setup-guides/mac.md)
-3. Windows setup guide: [`../../curriculum/setup-guides/windows.md`](../../curriculum/setup-guides/windows.md)
-4. First success lab: [`../../labs/first-success.md`](../../labs/first-success.md)
-5. Markdown thinking lab: [`../../labs/markdown-thinking-layer.md`](../../labs/markdown-thinking-layer.md)
-6. Memory loop lab: [`../../labs/memory-loop.md`](../../labs/memory-loop.md)
-7. Beaver Badges project: [`../../projects/beaver-badges/README.md`](../../projects/beaver-badges/README.md)
-8. Beaver Badges PRD: [`../../projects/beaver-badges/PRD.md`](../../projects/beaver-badges/PRD.md)
+1. Requirements: [`requirements.md`](requirements.md)
+2. Agenda: [`../../curriculum/agenda/tamu-2026-05-02.md`](../../curriculum/agenda/tamu-2026-05-02.md)
+3. Mac setup guide: [`../../curriculum/setup-guides/mac.md`](../../curriculum/setup-guides/mac.md)
+4. Windows setup guide: [`../../curriculum/setup-guides/windows.md`](../../curriculum/setup-guides/windows.md)
+5. First success lab: [`../../labs/first-success.md`](../../labs/first-success.md)
+6. Markdown thinking lab: [`../../labs/markdown-thinking-layer.md`](../../labs/markdown-thinking-layer.md)
+7. Memory loop lab: [`../../labs/memory-loop.md`](../../labs/memory-loop.md)
+8. Beaver Badges project: [`../../projects/beaver-badges/README.md`](../../projects/beaver-badges/README.md)
+9. Beaver Badges PRD: [`../../projects/beaver-badges/PRD.md`](../../projects/beaver-badges/PRD.md)
 
 ## Quick safety reminder
 
