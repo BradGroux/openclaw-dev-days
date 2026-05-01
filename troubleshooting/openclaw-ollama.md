@@ -125,7 +125,7 @@ Fixes:
 Fixes:
 
 - Use deployment name, not marketing model name.
-- Confirm model ref is `microsoft-foundry/<deployment-name>`.
+- Confirm model ref is `microsoft-foundry/<workshop-gpt-5-5-deployment-name>`.
 - Confirm deployment status is **Succeeded**.
 - Confirm endpoint and key are from the same resource.
 

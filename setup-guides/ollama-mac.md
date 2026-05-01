@@ -1,6 +1,6 @@
 # OpenClaw Dev Days Setup Guide — Mac + Ollama
 
-Audience: attendees using macOS who need OpenClaw running through Ollama, then optionally Azure Foundry.
+Audience: attendees using macOS. The official workshop baseline is `ollama launch openclaw`, followed by the workshop-provided Chat GPT 5.5 Azure Foundry key after first success.
 
 ## Goal
 

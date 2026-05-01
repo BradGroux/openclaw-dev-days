@@ -1,6 +1,6 @@
 # OpenClaw Dev Days Setup Guide — Windows + Ollama
 
-Audience: attendees using Windows PC who need OpenClaw running through Ollama, then optionally Azure Foundry.
+Audience: attendees using Windows PC. The official workshop baseline is native PowerShell + `ollama launch openclaw`, followed by the workshop-provided Chat GPT 5.5 Azure Foundry key after first success.
 
 ## Goal
 
@@ -14,7 +14,7 @@ By the end, you should have:
 
 ## Recommended path
 
-Use **native Windows PowerShell** as the default workshop path. Use WSL2 as the fallback if native Windows has PATH, permission, or daemon issues.
+Recommended Windows path: use **native Windows PowerShell** as the default. Use WSL2 only as the rescue lane if native Windows has PATH, permission, daemon, or installer issues.
 
 ## Prerequisites
 

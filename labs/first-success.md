@@ -81,3 +81,8 @@ Mark your status:
 ## Rescue rule
 
 If you are not green after 10 minutes, move to helper/rescue lane. Do not burn the whole workshop on local setup.
+
+
+## Next step
+
+After this lab, configure the workshop-provided Chat GPT 5.5 Azure Foundry key. Do not start WhatsApp/mobile setup during the live lab; keep that as a facilitator demo after dashboard success.

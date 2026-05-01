@@ -1,27 +1,26 @@
 # OpenClaw Dev Days Setup Guide — Azure AI Foundry API Key
 
-Audience: attendees or facilitators configuring OpenClaw to use an Azure AI Foundry / Azure OpenAI deployment through an API key.
+Audience: all workshop attendees configuring OpenClaw to use the workshop-provided Azure AI Foundry / Azure OpenAI Chat GPT 5.5 API key after their first Ollama/OpenClaw success.
 
-## Strong recommendation
+## Workshop decision
 
-Treat Azure Foundry as a **managed-provider stretch lane** unless every attendee has pre-provisioned access. For a large room, shared keys and live Azure setup are a support and cost-risk trap.
+Use `ollama launch openclaw` as the baseline install path for both Mac and Windows. After attendees reach first dashboard success, configure the workshop-provided **Chat GPT 5.5** Azure Foundry API key for everyone.
 
-Use Ollama as the baseline path; use Foundry for:
+The key is shared for workshop use, so treat it like a temporary credential:
 
-- advanced attendees
-- facilitator demo
-- enterprise-ready/provider comparison
-- post-workshop follow-up
+- do not paste it into repos, slides, screenshots, or chat
+- distribute it through the instructor-approved private path only
+- set quota/spend controls before the event
+- rotate or revoke it immediately after the workshop
 
 ## What you need
 
-- Azure AI Foundry or Azure OpenAI resource
-- Deployment name
-- Endpoint URL
-- API key
-- OpenClaw installed
+- Workshop-provided Chat GPT 5.5 API key
+- Workshop-provided Azure Foundry / Azure OpenAI endpoint URL
+- Workshop-provided deployment name for Chat GPT 5.5
+- OpenClaw installed and validated through Ollama first
 
-Important: OpenClaw uses the **deployment name** in the model reference:
+Important: OpenClaw uses the **deployment name**, not the marketing model label, in the model reference:
 
 ```text
 microsoft-foundry/<deployment-name>
@@ -39,7 +38,7 @@ API-key auth method:
 microsoft-foundry-apikey
 ```
 
-## 1. Create or select a Foundry deployment
+## 1. Instructor preflight: create or select the Foundry deployment
 
 Portal path:
 
@@ -47,13 +46,13 @@ Portal path:
 2. Sign in.
 3. Create or select a Foundry project/resource.
 4. Go to **Discover** → **Models**.
-5. Choose the model assigned by the instructor.
+5. Choose the workshop model: **Chat GPT 5.5**.
 6. Select **Deploy**.
 7. Use **Custom settings** if you need to name the deployment explicitly.
-8. Set a deployment name, for example:
+8. Set or record the exact deployment name for the workshop Chat GPT 5.5 deployment. Example only:
 
 ```text
-gpt-4o-mini-devdays
+chat-gpt-5-5-devdays
 ```
 
 9. Wait for deployment status **Succeeded**.
@@ -69,7 +68,7 @@ Classic Azure portal path:
 3. Create a model deployment in Azure AI Foundry or the Azure OpenAI resource UI.
 4. Record endpoint, API key, and deployment name.
 
-## 2. Configure OpenClaw with the recommended auth flow
+## 2. Attendee path: configure OpenClaw with the workshop key
 
 Run:
 
@@ -77,9 +76,9 @@ Run:
 openclaw models auth login --provider microsoft-foundry --method api-key --set-default
 ```
 
-When prompted, provide:
+When prompted, provide the instructor-supplied values:
 
-1. Azure OpenAI / Foundry API key
+1. Workshop Chat GPT 5.5 API key
 2. Endpoint URL, usually one of:
 
 ```text
@@ -87,10 +86,10 @@ https://<resource>.openai.azure.com
 https://<resource>.services.ai.azure.com
 ```
 
-3. Deployment name, e.g.:
+3. Exact Chat GPT 5.5 deployment name. Use the provided deployment name exactly; do not guess from the model label. Example only:
 
 ```text
-gpt-4o-mini-devdays
+chat-gpt-5-5-devdays
 ```
 
 4. Model family / request API:
@@ -120,7 +119,7 @@ openclaw models status
 Set model explicitly if needed:
 
 ```bash
-openclaw models set microsoft-foundry/<deployment-name>
+openclaw models set microsoft-foundry/<workshop-gpt-5-5-deployment-name>
 ```
 
 Direct smoke test:
@@ -128,7 +127,7 @@ Direct smoke test:
 ```bash
 openclaw infer model run \
   --local \
-  --model microsoft-foundry/<deployment-name> \
+  --model microsoft-foundry/<workshop-gpt-5-5-deployment-name> \
   --prompt "Reply with exactly: foundry-ok" \
   --json
 ```
@@ -138,7 +137,7 @@ PowerShell:
 ```powershell
 openclaw infer model run `
   --local `
-  --model microsoft-foundry/<deployment-name> `
+  --model microsoft-foundry/<workshop-gpt-5-5-deployment-name> `
   --prompt "Reply with exactly: foundry-ok" `
   --json
 ```
@@ -149,13 +148,13 @@ openclaw infer model run `
 - Use placeholders in curriculum:
 
 ```text
-<AZURE_FOUNDRY_API_KEY>
-<AZURE_FOUNDRY_ENDPOINT>
-<DEPLOYMENT_NAME>
+<WORKSHOP_GPT_5_5_API_KEY>
+<WORKSHOP_AZURE_FOUNDRY_ENDPOINT>
+<WORKSHOP_GPT_5_5_DEPLOYMENT_NAME>
 ```
 
-- For shared workshop keys, set quota/spend controls before the event.
-- Rotate or revoke any temporary keys immediately after the workshop.
+- Set quota/spend controls before the event.
+- Rotate or revoke the temporary workshop key immediately after the workshop.
 - Do not let attendees copy keys from projected screens.
 
 ## 5. Troubleshooting
@@ -174,7 +173,7 @@ openclaw infer model run `
 - Confirm model ref is exactly:
 
 ```text
-microsoft-foundry/<deployment-name>
+microsoft-foundry/<workshop-gpt-5-5-deployment-name>
 ```
 
 ### 400 Bad Request
@@ -193,8 +192,8 @@ microsoft-foundry/<deployment-name>
 ## Success checklist
 
 - [ ] Foundry/Azure OpenAI resource exists
-- [ ] Deployment status is **Succeeded**
-- [ ] Endpoint, key, and deployment name are recorded privately
+- [ ] Chat GPT 5.5 deployment status is **Succeeded**
+- [ ] Workshop endpoint, key, and exact deployment name are recorded privately
 - [ ] `openclaw models list --provider microsoft-foundry` shows deployment
-- [ ] `openclaw models set microsoft-foundry/<deployment-name>` succeeds
+- [ ] `openclaw models set microsoft-foundry/<workshop-gpt-5-5-deployment-name>` succeeds
 - [ ] Smoke test returns `foundry-ok`

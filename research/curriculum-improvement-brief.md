@@ -137,7 +137,7 @@ Use lunch for:
 - PATH fixes.
 - Windows WSL2 guidance.
 - Ollama sign-in/API key issues.
-- Azure Foundry key setup for stretch attendees.
+- Azure Foundry key setup for all attendees after first OpenClaw/Ollama success, using the workshop-provided Chat GPT 5.5 key.
 
 #### 12:15-12:50 — Provider configuration: Ollama baseline + Azure Foundry option
 Outcome: attendees understand model provider choices and how API keys fit.
@@ -572,3 +572,15 @@ Update the curriculum around this spine:
 **Ollama launch -> OpenClaw gateway -> dashboard first chat -> memory loop -> agent team -> Beaver Badges build -> optional Azure/WhatsApp stretch -> 30-day challenge.**
 
 Do not let Azure Foundry or messaging setup become the main path unless Brad confirms controlled credentials, quota limits, and helper capacity. The install story should be boring, repeatable, and heavily checkpointed. The memorable part should be the operator loop and Beaver Badges build, not 90 minutes of PATH hell.
+
+---
+
+## Addendum: Brad's decisions on qualifying questions (2026-05-01)
+
+- `ollama launch openclaw` is the official baseline for both Mac and Windows.
+- Windows default path: native Windows PowerShell. WSL2 is the rescue lane for PATH, permission, daemon, or installer failures.
+- Azure Foundry is for everyone in the workshop after first OpenClaw/Ollama success. Attendees will receive a workshop-provided Chat GPT 5.5 API key.
+- Deployment/model wording: use Chat GPT 5.5 and the exact instructor-provided Azure deployment name in OpenClaw as `microsoft-foundry/<deployment-name>`. Do not guess from the marketing model label.
+- WhatsApp should be removed from live setup and kept as a demo after dashboard success.
+- Primary post-event conversion goal: OpenClaw adoption plus SSTB/community, including future workshops.
+

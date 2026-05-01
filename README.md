@@ -1,71 +1,60 @@
 # OpenClaw Dev Days
 
-OpenClaw Dev Days is a reusable workshop kit for teaching agentic workflows, Markdown-based memory, orchestration, and product building with OpenClaw.
+OpenClaw Dev Days is the reusable workshop kit for teaching OpenClaw without turning the room into install hell.
 
 The point is simple: get people to one real operator win fast, then show them how to extend it.
 
-This repo is designed to support the Texas A&M workshop first, then expand into a repeatable format that other communities can use.
+## What this curriculum is trying to do
+- Get attendees from zero to one working OpenClaw loop quickly
+- Teach operator workflow, not just terminal commands
+- Keep mixed-skill rooms moving together
+- Leave behind reusable material other organizers can run with
+- Convert curiosity into actual adoption after the event
 
-## What participants learn
-
-- how to think about AI agents as specialized teammates
-- why Markdown memory matters
-- how to use OpenClaw through the web portal and chat surfaces
-- how to orchestrate a five-agent startup team
-- how to turn an idea into a scoped product and working app
-
-## Featured workshop project
-
-**Beaver Badges** — a fan-style app that tracks road trip stops, location visits, and achievement badges.
+## Core stance
+- **First success beats feature coverage.** If people don’t get a working loop early, the rest doesn’t matter.
+- **Dashboard first. Channels second.** Messaging integrations are cool and fragile. They are not the critical path.
+- **Scenario-first beats blank slate.** Give people a concrete use case instead of a vague platform tour.
+- **Workshop time is expensive.** Anything likely to explode should be preflighted, optional, or moved to helper lanes.
 
 ## Structure
-
-- `curriculum/` — agendas, setup guides, challenges, agent role definitions
-- `setup-guides/` — focused Ollama, OpenClaw, and Azure Foundry setup paths
+- `curriculum/` — modules, labs, pacing, facilitator notes
+- `setup-guides/` — Mac, Windows, Ollama, and Azure Foundry instructions
 - `labs/` — attendee exercises with binary success checkpoints
 - `helper-runbook/` — facilitator triage and rescue-lane guidance
 - `troubleshooting/` — common install/model/provider failures
 - `research/` — comparable events, risks, agenda lessons, workshop patterns, video ingests
-- `projects/beaver-badges/` — PRD, seed data, and app scaffold
-- `projects/infragard-agent-team/` — critical infrastructure agent-team workshop project
-- `examples/` — prompts, memory examples, orchestrator patterns
-- `event-specific/` — materials tied to a specific event delivery
-- `.github/` — agent and prompt definitions inspired by workshop agent patterns
+- `resources/` — checklists, FAQs, templates, post-event support assets
 
-## First event
-
-- Texas A&M OpenClaw Workshop
-- May 2, 2026
+## Event-specific content
+The Texas A&M / Arnold Castro workshop content lives under:
+- `appearances/tamu-openclaw-2026-05-02/`
 
 ## Current refinement priorities
-
-1. Lock the first 30-minute success path: Ollama → OpenClaw gateway → dashboard → first response
-2. Keep Azure Foundry and messaging channels as stretch lanes unless credentials/support are pre-provisioned
-3. Build a strict attendee preflight and rescue plan
-4. Define scenario cards and lab checkpoints
-5. Create break challenges after each major block
-6. Add facilitator notes for common failure modes
-7. Package a first working loop lab that proves the operator model fast
-8. Add a 7-day post-event adoption challenge so momentum survives the workshop
+1. Lock the first 30-minute success path: `ollama launch openclaw` → OpenClaw gateway → dashboard → first response
+2. Use the workshop-provided Chat GPT 5.5 Azure Foundry API key for all attendees after the first Ollama/OpenClaw success
+3. Keep WhatsApp/mobile channels out of live setup; demo them only after dashboard success
+4. Build a strict attendee preflight and rescue plan
+5. Define scenario cards and lab checkpoints
+6. Create break challenges after each major block
+7. Add facilitator notes for common failure modes
+8. Package a first working loop lab that proves the operator model fast
+9. Drive post-event conversion toward OpenClaw adoption and the SSTB community/future workshop path
 
 ## Success criteria
-
 A good Dev Days session ends with most attendees having:
 - OpenClaw installed and running
-- Ollama installed or a managed provider path confirmed
+- Ollama installed and OpenClaw launched through `ollama launch openclaw`
+- the workshop Chat GPT 5.5 Azure Foundry key configured after first success
 - the gateway verified
 - the dashboard working
 - one first response received
 - one memory-backed workflow or scenario sketched, tested, or partially live
-- a clear next step for the next 7 days
+- a clear next step into OpenClaw adoption and the SSTB/community follow-up path
 
-## Running Beaver Badges
+## Field notes informing this curriculum
+A real calibration source now exists from the Wildcat / Collin working session (`2026-04-14`). The lesson is dead simple: start practical, avoid early complexity, and optimize for one successful operator loop before layering advanced automation.
 
-```bash
-cd projects/beaver-badges/app
-npm install
-npm run dev
-```
 
 ## Upcoming event-specific materials
 

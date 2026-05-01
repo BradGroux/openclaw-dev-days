@@ -9,9 +9,9 @@ Arrive with a working environment so you can spend the workshop building, not wa
 Please create these accounts before the event if possible:
 - GitHub
 - OpenClaw
-- Ollama Cloud, if using cloud models
-- Azure account/access, only if you are joining the Azure Foundry stretch lane
-- WhatsApp on your phone, optional/demo path
+- Ollama/Ollama Cloud access if prompted during setup
+- Workshop-provided Chat GPT 5.5 Azure Foundry key, endpoint, and deployment name
+- WhatsApp on your phone only if you want to watch the demo path after dashboard success
 
 If you cannot finish before the event, we will help during setup, but arriving prepared will make your day much smoother.
 
@@ -106,19 +106,19 @@ openclaw gateway status
 openclaw dashboard
 ```
 
-The default success path is dashboard-first. WhatsApp/mobile channels are optional after dashboard success.
+The default success path is dashboard-first. WhatsApp/mobile channels are removed from live setup and should only be shown as a demo after dashboard success.
 
-## Azure Foundry Stretch Path
+## Azure Foundry Workshop Key Path
 
-If you are joining the Azure Foundry path, bring:
+After first OpenClaw success, use the instructor-provided Chat GPT 5.5 values:
 - endpoint URL
 - API key
-- deployment name
+- exact deployment name
 
 OpenClaw model ref format:
 
 ```text
-microsoft-foundry/<deployment-name>
+microsoft-foundry/<workshop-gpt-5-5-deployment-name>
 ```
 
 ## Optional but Helpful
@@ -132,8 +132,8 @@ microsoft-foundry/<deployment-name>
 
 - OpenClaw login and first-use setup
 - Ollama local/cloud baseline configuration
-- Azure Foundry setup for stretch attendees
-- WhatsApp linking only after dashboard success
+- Chat GPT 5.5 Azure Foundry setup for all attendees after first success
+- WhatsApp demo only after dashboard success
 - GitHub basics if you are new
 - troubleshooting package install issues
 

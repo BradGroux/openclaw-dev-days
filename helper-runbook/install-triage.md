@@ -106,8 +106,8 @@ openclaw gateway status
 ### Azure Foundry broken
 
 - Confirm endpoint/key/deployment name
-- Use deployment name in `microsoft-foundry/<deployment-name>`
-- If it is not fixed in 10 minutes, move Foundry to stretch/later
+- Use deployment name in `microsoft-foundry/<workshop-gpt-5-5-deployment-name>`
+- If it is not fixed in 10 minutes, keep the attendee on Ollama and return to the shared Chat GPT 5.5 key after the room is stable
 
 ## Rescue lane options
 
