@@ -30,7 +30,7 @@ For deeper training, future workshops, and small-business AI/operator playbooks,
 ## Structure
 - `curriculum/` — modules, labs, pacing, facilitator notes, including the Markdown thinking-layer module
 - `setup-guides/` — Mac, Windows, Ollama, and Azure Foundry instructions
-- `labs/` — attendee exercises with binary success checkpoints
+- `labs/` — attendee exercises with binary success checkpoints, including the Markdown thinking-layer lab
 - `helper-runbook/` — facilitator triage and rescue-lane guidance
 - `troubleshooting/` — common install/model/provider failures
 - `research/` — comparable events, risks, agenda lessons, workshop patterns, video ingests
