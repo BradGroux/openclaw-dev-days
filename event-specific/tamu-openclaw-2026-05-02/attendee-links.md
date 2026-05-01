@@ -9,6 +9,16 @@ Start here for the May 2 TAMU OpenClaw Dev Days workshop.
 - Start Small, Think Big Discord: https://discord.gg/Gmfkm7QVSF
 - Start Small, Think Big training: https://sstb.ai
 
+## Discord during the workshop
+
+We will use Discord during the event for shared links, announcements, questions, and workshop-provided setup information such as the temporary API key.
+
+Join here:
+
+- https://discord.gg/Gmfkm7QVSF
+
+Only use keys shared by facilitators for the workshop. Do not post personal API keys, tokens, credentials, private data, or sensitive notes in Discord.
+
 ## Workshop flow
 
 1. Agenda: [`../../curriculum/agenda/tamu-2026-05-02.md`](../../curriculum/agenda/tamu-2026-05-02.md)

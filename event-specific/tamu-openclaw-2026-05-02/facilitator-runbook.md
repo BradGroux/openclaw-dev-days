@@ -14,9 +14,20 @@ Protect the first win. The workshop succeeds when attendees get one working Open
 - Prepare screenshots for the first-hour Markdown/Obsidian discussion.
 - Prepare rescue/demo machine in case attendee installs stall.
 
+## Discord backchannel
+
+Use the Start Small, Think Big Discord during the workshop for shared links, announcements, questions, and workshop-provided setup information such as the temporary API key.
+
+- Invite: https://discord.gg/Gmfkm7QVSF
+
+Safety line to repeat:
+
+> Only use workshop-provided keys shared by facilitators. Do not post personal API keys, tokens, credentials, private data, or sensitive notes in Discord.
+
 ## Opening links to show
 
 - Attendee links: `event-specific/tamu-openclaw-2026-05-02/attendee-links.md`
+- SSTB Discord: https://discord.gg/Gmfkm7QVSF
 - Agenda: `curriculum/agenda/tamu-2026-05-02.md`
 - First success lab: `labs/first-success.md`
 - Markdown thinking lab: `labs/markdown-thinking-layer.md`

@@ -10,7 +10,8 @@ Please create these accounts before the event if possible:
 - GitHub
 - OpenClaw
 - Ollama/Ollama Cloud access if prompted during setup
-- Workshop-provided Chat GPT 5.5 Azure Foundry key, endpoint, and deployment name
+- Discord account and access to the Start Small, Think Big server
+- Workshop-provided Chat GPT 5.5 Azure Foundry key, endpoint, and deployment name shared by facilitators during the event
 - WhatsApp on your phone only if you want to watch the demo path after dashboard success
 
 If you cannot finish before the event, we will help during setup, but arriving prepared will make your day much smoother.
@@ -20,6 +21,7 @@ If you cannot finish before the event, we will help during setup, but arriving p
 Install these before the workshop:
 - Visual Studio Code
 - Git
+- Discord
 - Obsidian
 - Ollama
 - Node.js LTS, optional because OpenClaw installer can help
@@ -31,13 +33,23 @@ If you already use Homebrew, run:
 
 ```bash
 brew install git node
-brew install --cask visual-studio-code obsidian ollama
+brew install --cask visual-studio-code discord obsidian ollama
 ```
 
 If you do not have Homebrew yet, install it from:
 - https://brew.sh
 
 Then run the commands above.
+
+## Discord Check
+
+Open Discord in the desktop app or browser and join the Start Small, Think Big server:
+
+- https://discord.gg/Gmfkm7QVSF
+
+We will use Discord during the workshop for shared links, announcements, questions, and the workshop-provided API key.
+
+Safety note: do not post personal API keys, tokens, credentials, private data, or sensitive notes in Discord.
 
 ## GitHub Check
 
@@ -130,6 +142,7 @@ microsoft-foundry/<workshop-gpt-5-5-deployment-name>
 
 ## What We Will Help With Live
 
+- Discord join/setup for the workshop server
 - OpenClaw login and first-use setup
 - Ollama local/cloud baseline configuration
 - Chat GPT 5.5 Azure Foundry setup for all attendees after first success
@@ -141,9 +154,11 @@ microsoft-foundry/<workshop-gpt-5-5-deployment-name>
 
 You are in good shape if you can say yes to these:
 - VS Code is installed
+- Discord is installed or available in your browser
 - Git works in Terminal
 - Obsidian opens
 - Ollama works in Terminal
 - OpenClaw dashboard opens or you know you need helper lane
 - GitHub account is ready
+- you have joined or can join the SSTB Discord
 - you have at least one Markdown note created

@@ -21,6 +21,8 @@ Use this checklist the night before and morning of the workshop.
 - [ ] Increase terminal/editor/browser font sizes for projection.
 - [ ] Put the attendee links page on screen first.
 - [ ] Have the SSTB Discord invite ready: https://discord.gg/Gmfkm7QVSF
+- [ ] Confirm Discord install/join instructions are easy to find.
+- [ ] Confirm workshop-provided API key details are ready to share in Discord at the right time.
 - [ ] Have sstb.ai ready for follow-up/training signup.
 
 ## Presenter machine
@@ -36,7 +38,7 @@ Use this checklist the night before and morning of the workshop.
 
 ## Provider/API readiness
 
-- [ ] Workshop-provided Azure Foundry key is available to share at the right time.
+- [ ] Workshop-provided Azure Foundry key is available to share in Discord at the right time.
 - [ ] Endpoint and exact deployment name are available.
 - [ ] Safety reminder ready before anyone copies keys.
 - [ ] Fallback plan ready if Azure setup gets slow.
