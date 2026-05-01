@@ -64,7 +64,7 @@
 
 **Lead:** Brad
 
-**Real-world examples** from current client work:
+**Real-world examples** from practical workflow scenarios:
 
 ### Heavy haul trucking
 
