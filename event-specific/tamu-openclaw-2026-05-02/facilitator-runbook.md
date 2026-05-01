@@ -32,6 +32,14 @@ Safety line to repeat if setup information is shared there:
 - First success lab: `labs/first-success.md`
 - Markdown thinking lab: `labs/markdown-thinking-layer.md`
 
+## Optional Codex/Claude Code support
+
+Some attendees may arrive with Codex CLI or Claude Code access. Point them to:
+
+- `setup-guides/ai-assisted-openclaw-install.md`
+
+Keep this as an optional helper path. Do not let coding-assistant setup block the main OpenClaw install flow.
+
 ## Helper lanes
 
 ### Green lane

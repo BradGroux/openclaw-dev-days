@@ -45,6 +45,17 @@ The main workshop path is:
 7. Create Markdown memory and agent instruction files.
 8. Configure the workshop-provided Azure Foundry / Chat GPT 5.5 key after first success.
 
+## Optional AI coding assistants
+
+These are optional. You do not need them to complete the workshop, but they can help if you already have access.
+
+- Codex CLI for attendees with eligible ChatGPT access: https://github.com/openai/codex
+- Claude Code for attendees with eligible Claude/Anthropic access: https://code.claude.com/docs/en/setup
+
+AI-assisted OpenClaw install guide:
+
+- [`../../setup-guides/ai-assisted-openclaw-install.md`](../../setup-guides/ai-assisted-openclaw-install.md)
+
 ## Optional messaging/channel software
 
 OpenClaw supports many chat channels. These are optional for the TAMU workshop. We will not make every attendee configure them live, but they are useful follow-up paths.

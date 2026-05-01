@@ -101,6 +101,16 @@ If Ollama is not running, open the Ollama app or run:
 ollama serve
 ```
 
+## Optional AI-Assisted Install Path
+
+If you already have access to Codex CLI through ChatGPT or Claude Code through Claude/Anthropic, you can use an AI coding assistant to help with OpenClaw installation and troubleshooting.
+
+Use the repo-level guide:
+
+- [`../../setup-guides/ai-assisted-openclaw-install.md`](../../setup-guides/ai-assisted-openclaw-install.md)
+
+This is optional. The main workshop path below still works without Codex or Claude Code.
+
 ## OpenClaw First Success Path
 
 Preferred workshop path:
