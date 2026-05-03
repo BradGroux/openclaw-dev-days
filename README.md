@@ -24,7 +24,7 @@ For the May 2 TAMU workshop, use these files first:
 
 Dev Days is the starting line, not the finish line. If you want a calmer place to ask follow-up questions, keep building with other operators, and hear about future training, join the Start Small, Think Big community:
 
-- SSTB Discord: https://discord.gg/Gmfkm7QVSF
+- Start Small, Think Big Discord: https://discord.gg/Gmfkm7QVSF
 
 For deeper training, future workshops, and small-business AI/operator playbooks, sign up at:
 
