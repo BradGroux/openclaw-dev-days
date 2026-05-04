@@ -45,6 +45,12 @@ Use this wording before GitHub or public sharing:
 
 ## Review checklist before commit
 
+Run the lightweight scan:
+
+```bash
+./scripts/publication-scan.sh
+```
+
 Before committing public-facing content, check:
 
 - [ ] Does this mention a real client or private organization?

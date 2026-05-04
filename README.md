@@ -6,6 +6,16 @@ The point is simple: get people to one real operator win fast, then show them ho
 
 This repo includes raw research notes to show the workshop-building process; sensitive or private details should be excluded before anything is published.
 
+## Choose your path
+
+Start with [`START-HERE.md`](START-HERE.md) if you are not sure which file you need.
+
+- Attendees: use the event-specific links your facilitator shared.
+- Facilitators: use [`RUNBOOK.md`](RUNBOOK.md).
+- Organizers: copy [`event-specific/_template/`](event-specific/_template/) for a new event.
+- Contributors: review [`PUBLICATION-SAFETY.md`](PUBLICATION-SAFETY.md) and run `./scripts/publication-scan.sh` before publishing.
+- Changes: see [`CHANGELOG.md`](CHANGELOG.md).
+
 ## TAMU attendees: start here
 
 For the May 2 TAMU workshop, use these files first:
@@ -36,7 +46,7 @@ For non-TAMU workshops or personal setup, use the direct OpenClaw installer for 
 
 - Mac: [`setup-guides/openclaw-mac.md`](setup-guides/openclaw-mac.md)
 - Windows: [`setup-guides/openclaw-windows.md`](setup-guides/openclaw-windows.md)
-- Microsoft Foundry key setup: [`setup-guides/azure-foundry.md`](setup-guides/azure-foundry.md)
+- Microsoft Foundry key setup: [`setup-guides/microsoft-foundry.md`](setup-guides/microsoft-foundry.md)
 
 ## What this curriculum is trying to do
 - Get attendees from zero to one working OpenClaw loop quickly
@@ -57,7 +67,9 @@ For non-TAMU workshops or personal setup, use the direct OpenClaw installer for 
 - `labs/` — attendee exercises with binary success checkpoints, including the Markdown thinking-layer lab
 - `helper-runbook/` — facilitator triage and rescue-lane guidance
 - `troubleshooting/` — common install/model/provider failures
-- `research/` — comparable events, risks, agenda lessons, workshop patterns, video ingests
+- `event-specific/` — event-specific materials plus a reusable event template
+- `research/` — source notes and planning context; not attendee instructions
+- `scripts/` — lightweight repo maintenance and publication safety checks
 - `PUBLICATION-SAFETY.md` — public repo safety guidelines for contributors
 
 ## Event-specific content
