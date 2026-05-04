@@ -22,13 +22,14 @@ For the May 2 TAMU workshop, use these files first:
 
 1. Requirements: [`event-specific/tamu-openclaw-2026-05-02/requirements.md`](event-specific/tamu-openclaw-2026-05-02/requirements.md)
 2. Attendee links: [`event-specific/tamu-openclaw-2026-05-02/attendee-links.md`](event-specific/tamu-openclaw-2026-05-02/attendee-links.md)
-3. Agenda: [`curriculum/agenda/tamu-2026-05-02.md`](curriculum/agenda/tamu-2026-05-02.md)
-4. Mac setup: [`curriculum/setup-guides/mac.md`](curriculum/setup-guides/mac.md)
-5. Windows setup: [`curriculum/setup-guides/windows.md`](curriculum/setup-guides/windows.md)
-6. AI-assisted install: [`setup-guides/ai-assisted-openclaw-install.md`](setup-guides/ai-assisted-openclaw-install.md)
-7. First success lab: [`labs/first-success.md`](labs/first-success.md)
-8. Markdown thinking lab: [`labs/markdown-thinking-layer.md`](labs/markdown-thinking-layer.md)
-9. Beaver Badges: [`projects/beaver-badges/README.md`](projects/beaver-badges/README.md)
+3. TAMU OpenClaw onboarding: [`event-specific/tamu-openclaw-2026-05-02/openclaw-onboarding-tamu-gpt-5-5.md`](event-specific/tamu-openclaw-2026-05-02/openclaw-onboarding-tamu-gpt-5-5.md)
+4. Agenda: [`curriculum/agenda/tamu-2026-05-02.md`](curriculum/agenda/tamu-2026-05-02.md)
+5. Mac setup: [`curriculum/setup-guides/mac.md`](curriculum/setup-guides/mac.md)
+6. Windows setup: [`curriculum/setup-guides/windows.md`](curriculum/setup-guides/windows.md)
+7. AI-assisted install: [`setup-guides/ai-assisted-openclaw-install.md`](setup-guides/ai-assisted-openclaw-install.md)
+8. First success lab: [`labs/first-success.md`](labs/first-success.md)
+9. Markdown thinking lab: [`labs/markdown-thinking-layer.md`](labs/markdown-thinking-layer.md)
+10. Beaver Badges: [`projects/beaver-badges/README.md`](projects/beaver-badges/README.md)
 
 ## Learn more with the community
 
