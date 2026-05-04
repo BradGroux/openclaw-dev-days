@@ -5,7 +5,7 @@ This guide is for attendees who already have access to an AI coding assistant an
 Use this as an optional support path. The main workshop baseline remains:
 
 ```bash
-ollama launch openclaw
+openclaw onboard --install-daemon
 ```
 
 ## Who this is for
@@ -106,10 +106,10 @@ I am attending an OpenClaw Dev Days workshop.
 Help me install and verify OpenClaw on this computer.
 
 Use the workshop baseline first:
-1. Check that Ollama is installed and running.
-2. Pull a small local model if needed.
-3. Run: ollama launch openclaw
-4. Verify OpenClaw with: openclaw --version
+1. Install OpenClaw with the direct installer for my platform.
+2. Verify OpenClaw with: openclaw --version
+3. Run: openclaw onboard --install-daemon
+4. Help me choose and configure my model provider.
 5. Verify the gateway with: openclaw gateway status
 6. Help me open the dashboard.
 
@@ -146,19 +146,17 @@ I am attending an OpenClaw Dev Days workshop.
 Help me install and verify OpenClaw on this computer.
 
 Use the workshop baseline first:
-1. Check that Ollama is installed and running.
-2. Pull a small local model if needed.
-3. Run: ollama launch openclaw
-4. Verify OpenClaw with: openclaw --version
+1. Install OpenClaw with the direct installer for my platform.
+2. Verify OpenClaw with: openclaw --version
+3. Run: openclaw onboard --install-daemon
+4. Help me choose and configure my model provider.
 5. Verify the gateway with: openclaw gateway status
 6. Help me open the dashboard.
 
 Before running commands, explain what each command does. Do not ask for or store personal API keys. If installation fails twice, stop and summarize the blocker so I can ask a workshop helper.
 ```
 
-## Fallback OpenClaw install commands
-
-Use these only if `ollama launch openclaw` does not work.
+## OpenClaw install commands
 
 ### macOS / Linux
 
@@ -182,9 +180,8 @@ openclaw dashboard
 
 You are ready for the main workshop when:
 
-- Ollama responds
-- OpenClaw launches
 - `openclaw --version` works
+- onboarding completes with a model provider selected
 - `openclaw gateway status` works
 - the dashboard opens
 - you receive one OpenClaw response

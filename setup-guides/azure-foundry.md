@@ -1,10 +1,10 @@
-# OpenClaw Dev Days Setup Guide — Azure AI Foundry API Key
+# OpenClaw Dev Days Setup Guide - Microsoft Foundry API Key
 
-Audience: all workshop attendees configuring OpenClaw to use the workshop-provided Azure AI Foundry / Azure OpenAI Chat GPT 5.5 API key after their first Ollama/OpenClaw success.
+Audience: TAMU workshop attendees configuring OpenClaw to use the workshop-provided Microsoft Foundry / Azure OpenAI Chat GPT 5.5 API key during OpenClaw onboarding.
 
 ## Workshop decision
 
-Use `ollama launch openclaw` as the baseline install path for both Mac and Windows. After attendees reach first dashboard success, configure the workshop-provided **Chat GPT 5.5** Azure Foundry API key for everyone.
+Use the direct OpenClaw installer as the baseline install path for both Mac and Windows. During onboarding, configure the workshop-provided **Chat GPT 5.5** Microsoft Foundry API key for TAMU attendees.
 
 The key is shared for workshop use, so treat it like a temporary credential:
 
@@ -16,9 +16,9 @@ The key is shared for workshop use, so treat it like a temporary credential:
 ## What you need
 
 - Workshop-provided Chat GPT 5.5 API key
-- Workshop-provided Azure Foundry / Azure OpenAI endpoint URL
+- Workshop-provided Microsoft Foundry / Azure OpenAI endpoint URL
 - Workshop-provided deployment name for Chat GPT 5.5
-- OpenClaw installed and validated through Ollama first
+- OpenClaw installed with the direct platform installer
 
 Important: OpenClaw uses the **deployment name**, not the marketing model label, in the model reference:
 
@@ -68,12 +68,12 @@ Classic Azure portal path:
 3. Create a model deployment in Azure AI Foundry or the Azure OpenAI resource UI.
 4. Record endpoint, API key, and deployment name.
 
-## 2. Attendee path: configure OpenClaw with the workshop key
+## 2. Attendee path: onboard OpenClaw with the workshop key
 
-Run:
+If OpenClaw has not been onboarded yet, run:
 
 ```bash
-openclaw models auth login --provider microsoft-foundry --method api-key --set-default
+openclaw onboard --install-daemon --auth-choice microsoft-foundry-apikey
 ```
 
 When prompted, provide the instructor-supplied values:
@@ -96,11 +96,13 @@ chat-gpt-5-5-devdays
    - Use **Responses API** for GPT-5, o-series, and Codex-style Azure OpenAI deployments.
    - Use **Chat Completions API** if the deployment only supports chat/completions.
 
-Alternative onboarding command:
+If OpenClaw is already onboarded and you only need to add the provider, run:
 
 ```bash
-openclaw onboard --auth-choice microsoft-foundry-apikey
+openclaw models auth login --provider microsoft-foundry --method api-key --set-default
 ```
+
+Use the same key, endpoint, deployment name, and request API guidance above.
 
 ## 3. Validate Foundry in OpenClaw
 

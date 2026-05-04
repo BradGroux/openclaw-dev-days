@@ -8,8 +8,8 @@ Do not let install hell eat the workshop. Helpers should move people to a workin
 
 ### Green
 
-- `ollama --version` works
 - `openclaw --version` works
+- model provider configured
 - gateway status works
 - dashboard opens
 - first response received
@@ -27,7 +27,6 @@ Action: helper works one issue, then either green or rescue.
 
 - managed laptop blocks installs
 - PATH/env broken across multiple tools
-- model download too slow
 - Windows/WSL networking issue
 - no admin rights
 - no account/API access
@@ -36,9 +35,9 @@ Action: move to rescue lane/demo path immediately.
 
 ## Triage order
 
-1. Is Ollama installed?
-2. Is OpenClaw installed?
-3. Is a model available?
+1. Is OpenClaw installed?
+2. Is onboarding complete?
+3. Is a model provider configured?
 4. Is the gateway running?
 5. Does dashboard open?
 6. Does model respond?
@@ -48,8 +47,6 @@ Action: move to rescue lane/demo path immediately.
 Mac:
 
 ```bash
-ollama --version
-curl http://127.0.0.1:11434/api/tags
 openclaw --version
 openclaw doctor
 openclaw gateway status
@@ -59,8 +56,6 @@ openclaw dashboard
 Windows:
 
 ```powershell
-ollama --version
-curl.exe http://127.0.0.1:11434/api/tags
 openclaw --version
 openclaw doctor
 openclaw gateway status
@@ -84,12 +79,6 @@ No hero debugging during core teaching blocks.
 - Check PATH
 - On Windows, reboot if installer added PATH but shell does not see it
 
-### Ollama API unavailable
-
-- Start Ollama desktop app
-- Run `ollama serve`
-- Use `curl.exe` on Windows, not PowerShell alias
-
 ### OpenClaw gateway not running
 
 ```bash
@@ -97,17 +86,17 @@ openclaw onboard --install-daemon
 openclaw gateway status
 ```
 
-### Model too slow
+### Provider unavailable
 
-- Use smaller model
-- Switch to provider/cloud/rescue lane
-- Do not wait on giant model downloads in-room
+- Confirm the attendee chose the intended provider during onboarding
+- Confirm key, endpoint, and deployment/model name
+- Switch to rescue/demo lane if account or quota access is blocked
 
-### Azure Foundry broken
+### Microsoft Foundry broken
 
 - Confirm endpoint/key/deployment name
 - Use deployment name in `microsoft-foundry/<workshop-gpt-5-5-deployment-name>`
-- If it is not fixed in 10 minutes, keep the attendee on Ollama and return to the shared Chat GPT 5.5 key after the room is stable
+- If it is not fixed in 10 minutes, move the attendee to the rescue/demo lane and return to the shared Chat GPT 5.5 key after the room is stable
 
 ## Rescue lane options
 

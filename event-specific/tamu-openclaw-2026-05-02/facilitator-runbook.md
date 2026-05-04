@@ -59,8 +59,8 @@ Attendees are blocked for more than 10 minutes. Move them to observe, pair, or u
 By the end of the setup block, most attendees should have:
 
 - workspace folder created
-- Ollama responding
-- OpenClaw launched
+- OpenClaw installed and onboarded
+- Microsoft Foundry provider configured
 - dashboard open
 - first response received
 
@@ -96,8 +96,7 @@ Use lunch for:
 
 - account issues
 - OpenClaw launch issues
-- Ollama troubleshooting
-- Azure Foundry smoke tests
+- Microsoft Foundry smoke tests
 - GitHub login questions
 
 Do not start live WhatsApp setup during lunch unless the room is already green.
@@ -107,7 +106,7 @@ Do not start live WhatsApp setup during lunch unless the room is already green.
 Cut these first if time gets tight:
 
 1. Messaging/mobile demo
-2. Full Azure Foundry troubleshooting
+2. Full Microsoft Foundry troubleshooting
 3. Deep Git/GitHub instruction
 4. Full five-agent buildout
 5. Beaver Badges roadmap discussion

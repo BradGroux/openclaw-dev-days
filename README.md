@@ -30,6 +30,14 @@ For deeper training, future workshops, and small-business AI/operator playbooks,
 
 - Start Small, Think Big: https://sstb.ai
 
+## General OpenClaw install docs
+
+For non-TAMU workshops or personal setup, use the direct OpenClaw installer for your platform, then choose your model provider during onboarding:
+
+- Mac: [`setup-guides/openclaw-mac.md`](setup-guides/openclaw-mac.md)
+- Windows: [`setup-guides/openclaw-windows.md`](setup-guides/openclaw-windows.md)
+- Microsoft Foundry key setup: [`setup-guides/azure-foundry.md`](setup-guides/azure-foundry.md)
+
 ## What this curriculum is trying to do
 - Get attendees from zero to one working OpenClaw loop quickly
 - Teach operator workflow, not just terminal commands
@@ -45,7 +53,7 @@ For deeper training, future workshops, and small-business AI/operator playbooks,
 
 ## Structure
 - `curriculum/` — modules, labs, pacing, facilitator notes, including the Markdown thinking-layer module
-- `setup-guides/` — Mac, Windows, Ollama, and Azure Foundry instructions
+- `setup-guides/` — Mac, Windows, AI-assisted install, and Microsoft Foundry instructions
 - `labs/` — attendee exercises with binary success checkpoints, including the Markdown thinking-layer lab
 - `helper-runbook/` — facilitator triage and rescue-lane guidance
 - `troubleshooting/` — common install/model/provider failures
@@ -57,8 +65,8 @@ The Texas A&M / Arnold Castro workshop content lives under:
 - `event-specific/tamu-openclaw-2026-05-02/`
 
 ## Current refinement priorities
-1. Lock the first 30-minute success path: `ollama launch openclaw` → OpenClaw gateway → dashboard → first response
-2. Use the workshop-provided Chat GPT 5.5 Azure Foundry API key for all attendees after the first Ollama/OpenClaw success
+1. Lock the first 30-minute success path: direct OpenClaw install → choose your model provider → OpenClaw gateway → dashboard → first response
+2. Use the workshop-provided Chat GPT 5.5 Microsoft Foundry API key for TAMU attendees during OpenClaw onboarding
 3. Keep WhatsApp/mobile channels out of live setup; demo them only after dashboard success
 4. Build a strict attendee preflight and rescue plan
 5. Define scenario cards and lab checkpoints
@@ -70,8 +78,8 @@ The Texas A&M / Arnold Castro workshop content lives under:
 ## Success criteria
 A good Dev Days session ends with most attendees having:
 - OpenClaw installed and running
-- Ollama installed and OpenClaw launched through `ollama launch openclaw`
-- the workshop Chat GPT 5.5 Azure Foundry key configured after first success
+- a model provider selected during onboarding
+- the TAMU workshop Chat GPT 5.5 Microsoft Foundry key configured when applicable
 - the gateway verified
 - the dashboard working
 - one first response received

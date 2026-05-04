@@ -9,9 +9,8 @@ Arrive with a working environment so you can spend the workshop building, not wa
 Please create these accounts before the event if possible:
 - GitHub
 - OpenClaw
-- Ollama/Ollama Cloud access if prompted during setup
 - Discord account and access to the Start Small, Think Big server
-- Workshop-provided Chat GPT 5.5 Azure Foundry key, endpoint, and deployment name shared by facilitators during the event
+- Workshop-provided Chat GPT 5.5 Microsoft Foundry key, endpoint, and deployment name shared by facilitators during the event
 - WhatsApp on your phone only if you want to watch the demo path after dashboard success
 
 If you cannot finish before the event, we will help during setup, but arriving prepared will make your day much smoother.
@@ -23,7 +22,6 @@ Install these before the workshop:
 - Git
 - Discord
 - Obsidian
-- Ollama
 - Node.js LTS, optional because OpenClaw installer can help
 - A modern browser (Chrome, Edge, or Arc recommended)
 
@@ -33,7 +31,7 @@ If you already use Homebrew, run:
 
 ```bash
 brew install git node
-brew install --cask visual-studio-code discord obsidian ollama
+brew install --cask visual-studio-code discord obsidian
 ```
 
 If you do not have Homebrew yet, install it from:
@@ -79,19 +77,18 @@ Create a file called `memory.md` with three short notes:
 
 You can create it in Obsidian or VS Code.
 
-## Ollama Check
+## OpenClaw Install
 
 Open Terminal and run:
 
 ```bash
-ollama --version
-curl http://127.0.0.1:11434/api/tags
+curl -fsSL https://openclaw.ai/install.sh | bash
 ```
 
-If Ollama is not running, open the Ollama app or run:
+Open a new Terminal, then run:
 
 ```bash
-ollama serve
+openclaw --version
 ```
 
 ## Optional AI-Assisted Install Path
@@ -109,16 +106,10 @@ This is optional. The main workshop path below still works without Codex or Clau
 Preferred workshop path:
 
 ```bash
-ollama pull llama3.2:3b
-ollama launch openclaw
-```
-
-Fallback install path:
-
-```bash
-curl -fsSL https://openclaw.ai/install.sh | bash
 openclaw onboard --install-daemon
 ```
+
+When prompted, choose the workshop Microsoft Foundry API key option and enter the values from the facilitator.
 
 Verify:
 
@@ -130,9 +121,9 @@ openclaw dashboard
 
 The default success path is dashboard-first. WhatsApp/mobile channels are removed from live setup and should only be shown as a demo after dashboard success.
 
-## Azure Foundry Workshop Key Path
+## Microsoft Foundry Workshop Key Path
 
-After first OpenClaw success, use the instructor-provided Chat GPT 5.5 values:
+During OpenClaw onboarding, use the instructor-provided Chat GPT 5.5 values:
 - endpoint URL
 - API key
 - exact deployment name
@@ -154,8 +145,7 @@ microsoft-foundry/<workshop-gpt-5-5-deployment-name>
 
 - Discord join/setup for the workshop server
 - OpenClaw login and first-use setup
-- Ollama local/cloud baseline configuration
-- Chat GPT 5.5 Azure Foundry setup for all attendees after first success
+- Chat GPT 5.5 Microsoft Foundry setup for all attendees during onboarding
 - WhatsApp demo only after dashboard success
 - GitHub basics if you are new
 - troubleshooting package install issues
@@ -167,7 +157,6 @@ You are in good shape if you can say yes to these:
 - Discord is installed or available in your browser
 - Git works in Terminal
 - Obsidian opens
-- Ollama works in Terminal
 - OpenClaw dashboard opens or you know you need helper lane
 - GitHub account is ready
 - you have joined or can join the SSTB Discord

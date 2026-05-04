@@ -17,30 +17,27 @@ Get every attendee to one visible OpenClaw win before adding channels, agents, o
 Mac/Linux:
 
 ```bash
-ollama --version
 openclaw --version
 ```
 
 Windows PowerShell:
 
 ```powershell
-ollama --version
 openclaw --version
 ```
 
 If either command fails, move to helper lane.
 
-## Step 2 — Confirm Ollama model
+## Step 2 — Confirm onboarding and provider
 
 ```bash
-ollama list
-ollama run llama3.2:3b "Reply with exactly: pong"
+openclaw models status
 ```
 
-If the model is missing:
+If no provider is configured, rerun onboarding:
 
 ```bash
-ollama pull llama3.2:3b
+openclaw onboard --install-daemon
 ```
 
 ## Step 3 — Confirm OpenClaw gateway
@@ -82,7 +79,6 @@ Mark your status:
 
 If you are not green after 10 minutes, move to helper/rescue lane. Do not burn the whole workshop on local setup.
 
-
 ## Next step
 
-After this lab, configure the workshop-provided Chat GPT 5.5 Azure Foundry key. Do not start WhatsApp/mobile setup during the live lab; keep that as a facilitator demo after dashboard success.
+For TAMU, this lab uses the workshop-provided Chat GPT 5.5 Microsoft Foundry key during onboarding. Do not start WhatsApp/mobile setup during the live lab; keep that as a facilitator demo after dashboard success.

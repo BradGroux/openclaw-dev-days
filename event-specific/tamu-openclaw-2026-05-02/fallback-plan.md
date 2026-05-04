@@ -24,23 +24,23 @@ If a blocker takes more than 10 minutes, move the attendee to observe, pair, or 
 - Keep the attendee following along in the repo and notes.
 - Revisit their machine during lunch or helper time.
 
-## If Ollama/OpenClaw setup fails
+## If OpenClaw setup fails
 
 Use this order:
 
 1. Confirm basic commands.
-2. Confirm Ollama is running.
-3. Confirm OpenClaw launched.
+2. Confirm OpenClaw is installed.
+3. Confirm OpenClaw onboarding completed.
 4. Confirm dashboard/gateway access.
 5. If still blocked, move to rescue/demo path.
 
 Do not spend the group block debugging one machine.
 
-## If Azure Foundry setup fails
+## If Microsoft Foundry setup fails
 
-- Keep attendees on Ollama.
-- Mark Azure as post-first-success support.
-- Return to Azure only after the room is stable.
+- Move blocked attendees to observe, pair, or use the facilitator demo.
+- Confirm endpoint, key, deployment name, and provider selection.
+- Return to Foundry only after the room is stable.
 - Do not let provider setup block the core OpenClaw loop.
 
 ## If the Beaver Badges app fails live

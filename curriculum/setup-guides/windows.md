@@ -9,9 +9,8 @@ Arrive with a working environment so you can spend the workshop building, not wa
 Please create these accounts before the event if possible:
 - GitHub
 - OpenClaw
-- Ollama/Ollama Cloud access if prompted during setup
 - Discord account and access to the Start Small, Think Big server
-- Workshop-provided Chat GPT 5.5 Azure Foundry key, endpoint, and deployment name shared by facilitators during the event
+- Workshop-provided Chat GPT 5.5 Microsoft Foundry key, endpoint, and deployment name shared by facilitators during the event
 - WhatsApp on your phone only if you want to watch the demo path after dashboard success
 
 If you cannot finish before the event, we will help during setup, but arriving prepared will make your day much smoother.
@@ -23,7 +22,6 @@ Install these before the workshop:
 - Git
 - Discord
 - Obsidian
-- Ollama
 - Node.js LTS, optional because OpenClaw installer can help
 - A modern browser (Edge or Chrome recommended)
 
@@ -36,7 +34,6 @@ winget install --id Git.Git -e
 winget install --id Microsoft.VisualStudioCode -e
 winget install --id Discord.Discord -e
 winget install --id Obsidian.Obsidian -e
-winget install --id Ollama.Ollama -e
 winget install --id OpenJS.NodeJS.LTS -e
 ```
 
@@ -45,7 +42,6 @@ If `winget` is unavailable, use the official installers:
 - https://code.visualstudio.com/
 - https://discord.com/download
 - https://obsidian.md/
-- https://ollama.com/download/windows
 - https://nodejs.org/
 
 ## Discord Check
@@ -86,19 +82,18 @@ Create a file called `memory.md` with three short notes:
 
 You can create it in Obsidian or VS Code.
 
-## Ollama Check
+## OpenClaw Install
 
 Open PowerShell and run:
 
 ```powershell
-ollama --version
-curl.exe http://127.0.0.1:11434/api/tags
+iwr -useb https://openclaw.ai/install.ps1 | iex
 ```
 
-If Ollama is not running, open the Ollama app or run:
+Open a new PowerShell window, then run:
 
 ```powershell
-ollama serve
+openclaw --version
 ```
 
 ## Optional AI-Assisted Install Path
@@ -116,16 +111,10 @@ This is optional. The main workshop path below still works without Codex or Clau
 Preferred workshop path:
 
 ```powershell
-ollama pull llama3.2:3b
-ollama launch openclaw
-```
-
-Fallback install path:
-
-```powershell
-iwr -useb https://openclaw.ai/install.ps1 | iex
 openclaw onboard --install-daemon
 ```
+
+When prompted, choose the workshop Microsoft Foundry API key option and enter the values from the facilitator.
 
 Verify:
 
@@ -145,9 +134,9 @@ Native Windows is the workshop default. If native Windows gets stuck, helpers ma
 wsl --install
 ```
 
-## Azure Foundry Workshop Key Path
+## Microsoft Foundry Workshop Key Path
 
-After first OpenClaw success, use the instructor-provided Chat GPT 5.5 values:
+During OpenClaw onboarding, use the instructor-provided Chat GPT 5.5 values:
 - endpoint URL
 - API key
 - exact deployment name
@@ -169,8 +158,7 @@ microsoft-foundry/<workshop-gpt-5-5-deployment-name>
 
 - Discord join/setup for the workshop server
 - OpenClaw login and first-use setup
-- Ollama local/cloud baseline configuration
-- Chat GPT 5.5 Azure Foundry setup for all attendees after first success
+- Chat GPT 5.5 Microsoft Foundry setup for all attendees during onboarding
 - WhatsApp demo only after dashboard success
 - GitHub basics if you are new
 - troubleshooting package install issues
@@ -182,7 +170,6 @@ You are in good shape if you can say yes to these:
 - Discord is installed or available in your browser
 - Git works in PowerShell
 - Obsidian opens
-- Ollama works in PowerShell
 - OpenClaw dashboard opens or you know you need helper lane
 - GitHub account is ready
 - you have joined or can join the SSTB Discord

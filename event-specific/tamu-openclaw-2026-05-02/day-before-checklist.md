@@ -30,17 +30,17 @@ Use this checklist the night before and morning of the workshop.
 - [ ] Terminal ready.
 - [ ] VS Code or editor ready.
 - [ ] Obsidian installed and ready.
-- [ ] Ollama installed and responding.
-- [ ] OpenClaw launch path checked.
+- [ ] OpenClaw direct install path checked.
+- [ ] OpenClaw onboarding path checked.
 - [ ] Demo workspace folder ready.
 - [ ] Beaver Badges app dependencies installed or ready to install.
 
 ## Provider/API readiness
 
-- [ ] Workshop-provided Azure Foundry key is available to share at the right time.
+- [ ] Workshop-provided Microsoft Foundry key is available to share at the right time.
 - [ ] Endpoint and exact deployment name are available.
 - [ ] Safety reminder ready before anyone copies keys.
-- [ ] Fallback plan ready if Azure setup gets slow.
+- [ ] Fallback plan ready if Microsoft Foundry setup gets slow.
 
 ## Demo app check
 

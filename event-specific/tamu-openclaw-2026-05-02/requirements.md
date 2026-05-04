@@ -16,7 +16,7 @@ Please have these ready before the workshop if possible:
 
 - GitHub account: https://github.com
 - Discord account and access to the Start Small, Think Big server: https://discord.gg/Gmfkm7QVSF
-- Access to the workshop-provided Azure Foundry / Chat GPT 5.5 information when facilitators share it during the event
+- Access to the workshop-provided Microsoft Foundry / Chat GPT 5.5 information when facilitators share it during the event
 
 Do not post personal API keys, tokens, passwords, private data, or sensitive notes in Discord, GitHub, screenshots, or shared files.
 
@@ -28,7 +28,6 @@ Install or be ready to install:
 - Git: https://git-scm.com/
 - Discord: https://discord.com/download
 - Obsidian: https://obsidian.md/
-- Ollama: https://ollama.com/
 - Node.js LTS: https://nodejs.org/
 - OpenClaw: https://docs.openclaw.ai/
 
@@ -38,12 +37,12 @@ The main workshop path is:
 
 1. Join the Start Small, Think Big Discord.
 2. Create a local OpenClaw workspace folder.
-3. Install/check Ollama.
-4. Launch OpenClaw with Ollama.
+3. Install OpenClaw with the direct installer for your platform.
+4. Run OpenClaw onboarding with the workshop-provided Microsoft Foundry / Chat GPT 5.5 key.
 5. Open the OpenClaw dashboard.
 6. Get one successful response.
 7. Create Markdown memory and agent instruction files.
-8. Configure the workshop-provided Azure Foundry / Chat GPT 5.5 key after first success.
+8. Continue into the workshop labs.
 
 ## Optional AI coding assistants
 
