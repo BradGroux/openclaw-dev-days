@@ -14,6 +14,7 @@ Start with [`START-HERE.md`](START-HERE.md) if you are not sure which file you n
 - Facilitators: use [`RUNBOOK.md`](RUNBOOK.md).
 - Organizers: copy [`event-specific/_template/`](event-specific/_template/) for a new event.
 - Contributors: review [`PUBLICATION-SAFETY.md`](PUBLICATION-SAFETY.md) and run `./scripts/publication-scan.sh` before publishing.
+- Architecture: use [`docs/openclaw-architecture.md`](docs/openclaw-architecture.md) or the visual [`docs/openclaw-architecture-showcase.html`](docs/openclaw-architecture-showcase.html).
 - Changes: see [`CHANGELOG.md`](CHANGELOG.md).
 
 ## TAMU attendees: start here
@@ -68,6 +69,7 @@ For non-TAMU workshops or personal setup, use the direct OpenClaw installer for 
 - `labs/` — attendee exercises with binary success checkpoints, including the Markdown thinking-layer lab
 - `helper-runbook/` — facilitator triage and rescue-lane guidance
 - `troubleshooting/` — common install/model/provider failures
+- `docs/` — reusable explainers and visual docs, including the OpenClaw architecture showcase
 - `event-specific/` — event-specific materials plus a reusable event template
 - `research/` — source notes and planning context; not attendee instructions
 - `scripts/` — lightweight repo maintenance and publication safety checks

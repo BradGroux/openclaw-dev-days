@@ -39,6 +39,13 @@ Use the direct installer for your platform:
 - [Windows setup](setup-guides/openclaw-windows.md)
 - [Microsoft Foundry key setup](setup-guides/microsoft-foundry.md)
 
+## I want to understand the OpenClaw architecture
+
+Use the reusable architecture docs:
+
+- [OpenClaw architecture explainer](docs/openclaw-architecture.md)
+- [OpenClaw architecture showcase HTML](docs/openclaw-architecture-showcase.html)
+
 ## I want the sample project
 
 Use Beaver Badges:
