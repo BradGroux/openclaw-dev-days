@@ -27,9 +27,12 @@ Use the evergreen setup docs first:
 Run the room from:
 
 1. [Facilitator runbook](RUNBOOK.md)
-2. [Helper install triage](helper-runbook/install-triage.md)
-3. [Publication safety guidelines](PUBLICATION-SAFETY.md)
-4. [Event template](event-specific/_template/README.md)
+2. [Curriculum overview](curriculum/README.md)
+3. [Course map](curriculum/course-map.md)
+4. [One-day agenda](curriculum/agenda/openclaw-dev-days-one-day.md)
+5. [Helper install triage](helper-runbook/install-triage.md)
+6. [Publication safety guidelines](PUBLICATION-SAFETY.md)
+7. [Event template](event-specific/_template/README.md)
 
 ## I just want to install OpenClaw
 

@@ -13,6 +13,7 @@ Start with [`START-HERE.md`](START-HERE.md) if you are not sure which file you n
 - Attendees: use the event-specific links your facilitator shared.
 - Facilitators: use [`RUNBOOK.md`](RUNBOOK.md).
 - Organizers: copy [`event-specific/_template/`](event-specific/_template/) for a new event.
+- Curriculum: use [`curriculum/README.md`](curriculum/README.md) and [`curriculum/course-map.md`](curriculum/course-map.md).
 - Contributors: review [`PUBLICATION-SAFETY.md`](PUBLICATION-SAFETY.md) and run `./scripts/publication-scan.sh` before publishing.
 - Architecture: use [`docs/openclaw-architecture.md`](docs/openclaw-architecture.md) or the visual [`docs/openclaw-architecture-showcase.html`](docs/openclaw-architecture-showcase.html).
 - Changes: see [`CHANGELOG.md`](CHANGELOG.md).
